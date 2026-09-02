@@ -1,53 +1,1125 @@
 {
-  "note": "High-signal Substack pubs only. Public https://<pub>.substack.com/feed or /feed on a custom domain. No API key. Replace/extend from Shauli’s workbook when available.",
+  "note": "Shauli Substack tracker from Substack Accounts - updated list.xlsx (name + feed_url), unique by feed URL. Public RSS only: https://<pub>.substack.com/feed or /feed on a custom domain. No API key. KEEP still filters posts; dual custom-domain + substack.com feeds are both polled and posts are deduped by canonical URL.",
   "publications": [
     {
-      "name": "SemiAnalysis",
-      "rss": "https://www.semianalysis.com/feed",
-      "source": "SemiAnalysis",
-      "handle": "semianalysis"
+      "name": "100 Bagger Hunting",
+      "feed": "https://atmosinvest.substack.com/feed"
     },
     {
-      "name": "Stratechery",
-      "rss": "https://stratechery.com/feed",
-      "source": "Stratechery",
-      "handle": "stratechery"
+      "name": "<CodeToCapital/>",
+      "feed": "https://laurinclass.substack.com/feed"
     },
     {
-      "name": "Import AI",
-      "rss": "https://importai.substack.com/feed",
-      "source": "Import AI",
-      "handle": "importai"
+      "name": "A Letter a Day",
+      "feed": "https://aletteraday.substack.com/feed"
     },
     {
-      "name": "Latent Space",
-      "rss": "https://www.latent.space/feed",
-      "source": "Latent Space",
-      "handle": "latentspace"
+      "name": "a16z",
+      "feed": "https://a16z.substack.com/feed"
     },
     {
-      "name": "Interconnects",
-      "rss": "https://www.interconnects.ai/feed",
-      "source": "Interconnects",
-      "handle": "interconnects"
+      "name": "a16z",
+      "feed": "https://www.a16z.news/feed"
     },
     {
-      "name": "The Chip Letter",
-      "rss": "https://thechipletter.substack.com/feed",
-      "source": "The Chip Letter",
-      "handle": "thechipletter"
+      "name": "a16z American Dynamism",
+      "feed": "https://a16zamericandynamism.substack.com/feed"
+    },
+    {
+      "name": "a16z Enterprise",
+      "feed": "https://a16zenterprise.substack.com/feed"
+    },
+    {
+      "name": "a16z Fintech",
+      "feed": "https://a16zfintech.substack.com/feed"
+    },
+    {
+      "name": "Accrued Interest",
+      "feed": "https://accruedinterest.substack.com/feed"
+    },
+    {
+      "name": "Accrued Interest",
+      "feed": "https://www.accruedint.com/feed"
+    },
+    {
+      "name": "Agentic AI",
+      "feed": "https://kenhuangus.substack.com/feed"
+    },
+    {
+      "name": "Agrippa Investments",
+      "feed": "https://www.agrippa.investments/feed"
     },
     {
       "name": "Ahead of AI",
-      "rss": "https://magazine.sebastianraschka.com/feed",
-      "source": "Ahead of AI",
-      "handle": "aheadofai"
+      "feed": "https://magazine.sebastianraschka.com/feed"
+    },
+    {
+      "name": "AI Governance Dispatch",
+      "feed": "https://markusanderljung.substack.com/feed"
+    },
+    {
+      "name": "AI In Finance",
+      "feed": "https://finstoryai.substack.com/feed"
+    },
+    {
+      "name": "AI MARKET FIT",
+      "feed": "https://www.theaiopportunities.com/feed"
+    },
+    {
+      "name": "AI Newsletter",
+      "feed": "https://nlp.elvissaravia.com/feed"
+    },
+    {
+      "name": "AI Policy Perspectives",
+      "feed": "https://www.aipolicyperspectives.com/feed"
+    },
+    {
+      "name": "AI Supremacy",
+      "feed": "https://www.ai-supremacy.com/feed"
+    },
+    {
+      "name": "AI to ROI - By Ray Rike and Peter Buchanan",
+      "feed": "https://ai2roi.substack.com/feed"
+    },
+    {
+      "name": "AI with Amitay",
+      "feed": "https://www.aiwithamitay.com/feed"
+    },
+    {
+      "name": "Air Street Press",
+      "feed": "https://airstreet.substack.com/feed"
+    },
+    {
+      "name": "Air Street Press",
+      "feed": "https://press.airstreet.com/feed"
+    },
+    {
+      "name": "AlmaCap Research",
+      "feed": "https://almacapresearch.substack.com/feed"
+    },
+    {
+      "name": "Amanda Goodall",
+      "feed": "https://amandagoodall.substack.com/feed"
+    },
+    {
+      "name": "Andrew Brown | Substack",
+      "feed": "https://andrewbrown174150.substack.com/feed"
+    },
+    {
+      "name": "Apricitas Economics",
+      "feed": "https://www.apricitas.io/feed"
+    },
+    {
+      "name": "Ardently",
+      "feed": "https://ardentlyhuman.substack.com/feed"
+    },
+    {
+      "name": "ARS",
+      "feed": "https://sorkin.substack.com/feed"
+    },
+    {
+      "name": "Artificial Ignorance",
+      "feed": "https://www.ignorance.ai/feed"
+    },
+    {
+      "name": "Artificial Intelligence Made Simple",
+      "feed": "https://artificialintelligencemadesimple.substack.com/feed"
+    },
+    {
+      "name": "Artificial Intelligence Made Simple",
+      "feed": "https://www.artificialintelligencemadesimple.com/feed"
+    },
+    {
+      "name": "Arya's Substack",
+      "feed": "https://aryadeniz.substack.com/feed"
+    },
+    {
+      "name": "ASPI's Cyber and Tech Digest",
+      "feed": "https://aspicts.substack.com/feed"
+    },
+    {
+      "name": "At Bat",
+      "feed": "https://davidmrubenstein.substack.com/feed"
+    },
+    {
+      "name": "Base Hit Investing",
+      "feed": "https://basehitinvesting.substack.com/feed"
+    },
+    {
+      "name": "Ben's Substack",
+      "feed": "https://benstephenson.substack.com/feed"
+    },
+    {
+      "name": "Benedict Evans",
+      "feed": "https://www.ben-evans.com/benedictevans?format=rss"
+    },
+    {
+      "name": "benn.substack",
+      "feed": "https://benn.substack.com/feed"
+    },
+    {
+      "name": "Best Anchor Stocks",
+      "feed": "https://www.bestanchorstocks.com/feed"
+    },
+    {
+      "name": "Breaking SaaS",
+      "feed": "https://www.breakingsaas.com/feed"
+    },
+    {
+      "name": "Built to Trade @ Equity Empire",
+      "feed": "https://pelicantrader.substack.com/feed"
+    },
+    {
+      "name": "ByteByteGo Newsletter",
+      "feed": "https://blog.bytebytego.com/feed"
+    },
+    {
+      "name": "Capitalist Letters",
+      "feed": "https://www.capitalist-letters.com/feed"
+    },
+    {
+      "name": "Cassandra Unchained",
+      "feed": "https://michaeljburry.substack.com/feed"
+    },
+    {
+      "name": "Catalyst Value Investing",
+      "feed": "https://catalystinvesting.substack.com/feed"
+    },
+    {
+      "name": "CEO Dinner Insights",
+      "feed": "https://ceodinner.substack.com/feed"
+    },
+    {
+      "name": "Chamath Palihapitiya",
+      "feed": "https://chamath.substack.com/feed"
+    },
+    {
+      "name": "ChinAI Newsletter",
+      "feed": "https://chinai.substack.com/feed"
+    },
+    {
+      "name": "ChinaTalk",
+      "feed": "https://www.chinatalk.media/feed"
+    },
+    {
+      "name": "Chipstrat",
+      "feed": "https://chipstrat.substack.com/feed"
+    },
+    {
+      "name": "Chipstrat",
+      "feed": "https://www.chipstrat.com/feed"
+    },
+    {
+      "name": "Citrini Research",
+      "feed": "https://www.citriniresearch.com/feed"
+    },
+    {
+      "name": "Claude Cowork",
+      "feed": "https://www.coworkoperator.com/feed"
+    },
+    {
+      "name": "Claude Finance",
+      "feed": "https://claudefinance.substack.com/feed"
+    },
+    {
+      "name": "Claude Mythos",
+      "feed": "https://claudemythos.substack.com/feed"
+    },
+    {
+      "name": "Cleanview Newsletter",
+      "feed": "https://newsletter.cleanview.co/feed"
+    },
+    {
+      "name": "Clouded Judgement",
+      "feed": "https://cloudedjudgement.substack.com/feed"
+    },
+    {
+      "name": "cloudsquid blog",
+      "feed": "https://newsletter.cloudsquid.io/feed"
+    },
+    {
+      "name": "Coding with Intelligence",
+      "feed": "https://codingwithintelligence.com/feed"
+    },
+    {
+      "name": "Compound & Fire",
+      "feed": "https://compoundandfire.substack.com/feed"
+    },
+    {
+      "name": "Compound With AI",
+      "feed": "https://compoundwithai.substack.com/feed"
+    },
+    {
+      "name": "Compound With AI",
+      "feed": "https://news.aiinvestinghq.com/feed"
+    },
+    {
+      "name": "Compounding Dividends",
+      "feed": "https://compoundingdividends.substack.com/feed"
+    },
+    {
+      "name": "Compounding Dividends",
+      "feed": "https://www.compoundingdividends.net/feed"
+    },
+    {
+      "name": "Compounding Quality",
+      "feed": "https://www.compoundingquality.net/feed"
+    },
+    {
+      "name": "Conks",
+      "feed": "https://conkstack.substack.com/feed"
+    },
+    {
+      "name": "Conks",
+      "feed": "https://www.conks.plumbing/feed"
+    },
+    {
+      "name": "Construction Physics (Brian Potter)",
+      "feed": "https://www.construction-physics.com/feed"
+    },
+    {
+      "name": "Core Memory",
+      "feed": "https://www.corememory.com/feed"
+    },
+    {
+      "name": "Crack The Market",
+      "feed": "https://crackthemarket.substack.com/feed"
+    },
+    {
+      "name": "Cyber Builders",
+      "feed": "https://cyberbuilders.substack.com/feed"
+    },
+    {
+      "name": "cyber bytes",
+      "feed": "https://sharkybyte.substack.com/feed"
+    },
+    {
+      "name": "Cyber Clarity with Dr. Eric Cole",
+      "feed": "https://drericcole.substack.com/feed"
+    },
+    {
+      "name": "Cyber News Network",
+      "feed": "https://cyberwarrior76.substack.com/feed"
+    },
+    {
+      "name": "D & A Metropolitan",
+      "feed": "https://dametropolitan.substack.com/feed"
+    },
+    {
+      "name": "Damnang's Substack",
+      "feed": "https://damnang2.substack.com/feed"
+    },
+    {
+      "name": "Data Gravity",
+      "feed": "https://www.datagravity.dev/feed"
+    },
+    {
+      "name": "Data Strategy in a Nutshell",
+      "feed": "https://peterbaumann.substack.com/feed"
+    },
+    {
+      "name": "Day by Jay",
+      "feed": "https://jaydimonte.substack.com/feed"
+    },
+    {
+      "name": "DB Software Musings",
+      "feed": "https://softwaremusings.substack.com/feed"
+    },
+    {
+      "name": "Deep in Tech Newsletter",
+      "feed": "https://anastasiintech.substack.com/feed"
+    },
+    {
+      "name": "Defense Tech News",
+      "feed": "https://mafatforstartups.substack.com/feed"
+    },
+    {
+      "name": "DeLong's Grasping Reality Weblog",
+      "feed": "https://braddelong.substack.com/feed"
+    },
+    {
+      "name": "Distilled",
+      "feed": "https://www.distilled.earth/feed"
+    },
+    {
+      "name": "Doom Debates",
+      "feed": "https://lironshapira.substack.com/feed"
+    },
+    {
+      "name": "Doomberg",
+      "feed": "https://newsletter.doomberg.com/feed"
+    },
+    {
+      "name": "Dwarkesh Podcast",
+      "feed": "https://dwarkesh.substack.com/feed"
+    },
+    {
+      "name": "Dwarkesh Podcast",
+      "feed": "https://www.dwarkesh.com/feed"
+    },
+    {
+      "name": "Eagle Point Capital",
+      "feed": "https://eaglepointcapital.substack.com/feed"
+    },
+    {
+      "name": "Eagle Sight Analysis",
+      "feed": "https://freedombirdo.substack.com/feed"
+    },
+    {
+      "name": "Elad Blog",
+      "feed": "https://blog.eladgil.com/feed"
+    },
+    {
+      "name": "Elizabeth Laraki",
+      "feed": "https://elizlaraki.substack.com/feed"
+    },
+    {
+      "name": "Emerging Moats Research",
+      "feed": "https://www.emergingmoats.com/feed"
+    },
+    {
+      "name": "Emerging Technology Observatory",
+      "feed": "https://etoblog.substack.com/feed"
+    },
+    {
+      "name": "Enterprise Weekly",
+      "feed": "https://workbench.substack.com/feed"
+    },
+    {
+      "name": "epicNews",
+      "feed": "https://www.epicnews.io/feed"
+    },
+    {
+      "name": "Epoch AI",
+      "feed": "https://epochai.substack.com/feed"
+    },
+    {
+      "name": "Exponential View",
+      "feed": "https://exponentialview.substack.com/feed"
+    },
+    {
+      "name": "Exponential View",
+      "feed": "https://www.exponentialview.co/feed"
+    },
+    {
+      "name": "Fabricated Knowledge",
+      "feed": "https://www.fabricatedknowledge.com/feed"
+    },
+    {
+      "name": "Flat Circle",
+      "feed": "https://blog.flatcircle.ai/feed"
+    },
+    {
+      "name": "Forever.AI: AI, Robotics, Quantum, Longevity, Cryonics & BCI",
+      "feed": "https://www.forever.ai/feed"
+    },
+    {
+      "name": "Founder University Newsletter",
+      "feed": "https://founderuniversity.substack.com/feed"
+    },
+    {
+      "name": "Gad's Newsletter",
+      "feed": "https://gadallon.substack.com/feed"
+    },
+    {
+      "name": "Generative Value",
+      "feed": "https://www.generativevalue.com/feed"
+    },
+    {
+      "name": "Good Better Best",
+      "feed": "https://goodbetterbest.substack.com/feed"
+    },
+    {
+      "name": "Growth Curve Investing",
+      "feed": "https://austin.substack.com/feed"
+    },
+    {
+      "name": "Hardcore Software by Steven Sinofsky",
+      "feed": "https://hardcoresoftware.learningbyshipping.com/feed"
+    },
+    {
+      "name": "HardTech Deep Dives",
+      "feed": "https://hardtechdeepdives.substack.com/feed"
+    },
+    {
+      "name": "Hated Moats",
+      "feed": "https://hatedmoats.substack.com/feed"
+    },
+    {
+      "name": "How They Make Money",
+      "feed": "https://www.appeconomyinsights.com/feed"
+    },
+    {
+      "name": "How to AI",
+      "feed": "https://ruben.substack.com/feed"
+    },
+    {
+      "name": "Hyperdimensional",
+      "feed": "https://www.hyperdimensional.co/feed"
+    },
+    {
+      "name": "Import AI",
+      "feed": "https://importai.substack.com/feed"
+    },
+    {
+      "name": "Incautious Optimism",
+      "feed": "https://jordanwtaylor2.substack.com/feed"
+    },
+    {
+      "name": "Inference by Sequoia Capital",
+      "feed": "https://inferencebysequoia.substack.com/feed"
+    },
+    {
+      "name": "Inside Cyber Warfare",
+      "feed": "https://jeffreycaruso.substack.com/feed"
+    },
+    {
+      "name": "Inside Cyber Warfare",
+      "feed": "https://www.insidecyberwarfare.com/feed"
+    },
+    {
+      "name": "Intelligence to Risk",
+      "feed": "https://intelligence2risk.substack.com/feed"
+    },
+    {
+      "name": "Interconnected",
+      "feed": "https://interconnect.substack.com/feed"
+    },
+    {
+      "name": "Interconnects AI",
+      "feed": "https://robotic.substack.com/feed"
+    },
+    {
+      "name": "Interconnects AI",
+      "feed": "https://www.interconnects.ai/feed"
+    },
+    {
+      "name": "Invest with AI",
+      "feed": "https://investwithai.substack.com/feed"
+    },
+    {
+      "name": "Investment Ideas by Antonio",
+      "feed": "https://antoniolinares.substack.com/feed"
+    },
+    {
+      "name": "It Can Think!",
+      "feed": "https://itcanthink.substack.com/feed"
+    },
+    {
+      "name": "Jason Calacanis on Startups",
+      "feed": "https://calacanis.substack.com/feed"
+    },
+    {
+      "name": "Jason's Chips",
+      "feed": "https://www.jasonschips.ai/feed"
+    },
+    {
+      "name": "Joe Lonsdale",
+      "feed": "https://blog.joelonsdale.com/feed"
+    },
+    {
+      "name": "Joe Reis",
+      "feed": "https://joereis.substack.com/feed"
+    },
+    {
+      "name": "Key Context by Tae Kim",
+      "feed": "https://taekim.substack.com/feed"
+    },
+    {
+      "name": "Kyla's Newsletter",
+      "feed": "https://kyla.substack.com/feed"
+    },
+    {
+      "name": "Latest in Cyber",
+      "feed": "https://latestincyber.substack.com/feed"
+    },
+    {
+      "name": "Latio Pulse",
+      "feed": "https://latio.substack.com/feed"
+    },
+    {
+      "name": "Latio Pulse",
+      "feed": "https://pulse.latio.tech/feed"
+    },
+    {
+      "name": "Learn Analytics Engineering",
+      "feed": "https://learnanalyticsengineering.substack.com/feed"
+    },
+    {
+      "name": "Lenny's Newsletter",
+      "feed": "https://www.lennysnewsletter.com/feed"
+    },
+    {
+      "name": "Liberty's Highlights",
+      "feed": "https://www.libertyrpf.com/feed"
+    },
+    {
+      "name": "Linas's Newsletter",
+      "feed": "https://linas.substack.com/feed"
+    },
+    {
+      "name": "Linear: A Vertical Software & Vertical AI Newsletter",
+      "feed": "https://lukesophinos.substack.com/feed"
+    },
+    {
+      "name": "Linear: A Vertical Software & Vertical AI Newsletter",
+      "feed": "https://www.newsletter.lukesophinos.com/feed"
+    },
+    {
+      "name": "Lorenzo2cents",
+      "feed": "https://www.lorenzo2cents.com/feed"
+    },
+    {
+      "name": "Macro Charts",
+      "feed": "https://www.macrocharts.com/feed"
+    },
+    {
+      "name": "Macro Mornings",
+      "feed": "https://macromornings.substack.com/feed"
+    },
+    {
+      "name": "mandates",
+      "feed": "https://ethanding.substack.com/feed"
+    },
+    {
+      "name": "Marcus on AI",
+      "feed": "https://garymarcus.substack.com/feed"
+    },
+    {
+      "name": "Market Moves by GBC",
+      "feed": "https://www.gb.capital/feed"
+    },
+    {
+      "name": "Market Sentiment",
+      "feed": "https://www.marketsentiment.co/feed"
+    },
+    {
+      "name": "Maverick Equity Research",
+      "feed": "https://www.maverickequityresearch.com/feed"
+    },
+    {
+      "name": "Memetic Warfare",
+      "feed": "https://www.memeticwarfare.io/feed"
+    },
+    {
+      "name": "Mia Silverio",
+      "feed": "https://miasilverio.substack.com/feed"
+    },
+    {
+      "name": "MKW Semiconductors",
+      "feed": "https://mkwsemiconductors.substack.com/feed"
+    },
+    {
+      "name": "Modern Data 101",
+      "feed": "https://moderndata101.substack.com/feed"
+    },
+    {
+      "name": "Monopolistic Investor",
+      "feed": "https://monopolisticinvestor.substack.com/feed"
+    },
+    {
+      "name": "More Than Moore",
+      "feed": "https://morethanmoore.substack.com/feed"
+    },
+    {
+      "name": "Mostly metrics",
+      "feed": "https://cjgustafson.substack.com/feed"
+    },
+    {
+      "name": "Multibagger Monitor",
+      "feed": "https://stocknarratives.substack.com/feed"
+    },
+    {
+      "name": "Musings on Markets",
+      "feed": "https://aswathdamodaran.substack.com/feed"
+    },
+    {
+      "name": "Nat Stewart - Stock Picking Newsletter",
+      "feed": "https://stockpicking.substack.com/feed"
+    },
+    {
+      "name": "Natto Thoughts",
+      "feed": "https://nattothoughts.substack.com/feed"
+    },
+    {
+      "name": "Net Interest",
+      "feed": "https://www.netinterest.co/feed"
+    },
+    {
+      "name": "NEW ECONOMIES",
+      "feed": "https://www.neweconomies.co/feed"
+    },
+    {
+      "name": "Next Big Teng",
+      "feed": "https://nextbigteng.substack.com/feed"
+    },
+    {
+      "name": "Noahpinion",
+      "feed": "https://www.noahpinion.blog/feed"
+    },
+    {
+      "name": "Not Boring by Packy McCormick",
+      "feed": "https://notboring.substack.com/feed"
+    },
+    {
+      "name": "Not Boring by Packy McCormick",
+      "feed": "https://www.notboring.co/feed"
+    },
+    {
+      "name": "Nutty",
+      "feed": "https://nuttycld.substack.com/feed"
+    },
+    {
+      "name": "On Substack",
+      "feed": "https://on.substack.com/feed"
+    },
+    {
+      "name": "On The Frontier",
+      "feed": "https://shomik.substack.com/feed"
     },
     {
       "name": "One Useful Thing",
-      "rss": "https://www.oneusefulthing.org/feed",
-      "source": "One Useful Thing",
-      "handle": "oneusefulthing"
+      "feed": "https://www.oneusefulthing.org/feed"
+    },
+    {
+      "name": "OnlyCFO's Newsletter",
+      "feed": "https://www.onlycfo.io/feed"
+    },
+    {
+      "name": "P Equity Research",
+      "feed": "https://pequityresearch.substack.com/feed"
+    },
+    {
+      "name": "Pekingnology",
+      "feed": "https://www.pekingnology.com/feed"
+    },
+    {
+      "name": "Peter Buchanan",
+      "feed": "https://peterb17.substack.com/feed"
+    },
+    {
+      "name": "PhotonCap",
+      "feed": "https://photoncap.net/feed"
+    },
+    {
+      "name": "Phynvesting",
+      "feed": "https://phynvesting.substack.com/feed"
+    },
+    {
+      "name": "Platform Aeronaut",
+      "feed": "https://www.platformaeronaut.com/feed"
+    },
+    {
+      "name": "Practical Data Modeling",
+      "feed": "https://practicaldatamodeling.substack.com/feed"
+    },
+    {
+      "name": "Principled Perspectives",
+      "feed": "https://raydalio.substack.com/feed"
+    },
+    {
+      "name": "Product Growth",
+      "feed": "https://aakashgupta.substack.com/feed"
+    },
+    {
+      "name": "Product Growth",
+      "feed": "https://www.news.aakashg.com/feed"
+    },
+    {
+      "name": "Product Market Fit",
+      "feed": "https://www.productmarketfit.tech/feed"
+    },
+    {
+      "name": "Prof G Media",
+      "feed": "https://profgmedia.substack.com/feed"
+    },
+    {
+      "name": "Prof G Media",
+      "feed": "https://www.profgmedia.com/feed"
+    },
+    {
+      "name": "Ramp Economics Lab",
+      "feed": "https://econlab.substack.com/feed"
+    },
+    {
+      "name": "Rebound Capital",
+      "feed": "https://reboundcapital.substack.com/feed"
+    },
+    {
+      "name": "Refactoring",
+      "feed": "https://refactoring.fm/feed"
+    },
+    {
+      "name": "Refactoring",
+      "feed": "https://refactoring.substack.com/feed"
+    },
+    {
+      "name": "Resilient Cyber",
+      "feed": "https://resilientcyber.substack.com/feed"
+    },
+    {
+      "name": "Resilient Cyber",
+      "feed": "https://www.resilientcyber.io/feed"
+    },
+    {
+      "name": "Reveles Research, LLC",
+      "feed": "https://www.revelesresearch.com/feed"
+    },
+    {
+      "name": "rj's trading for dickheads",
+      "feed": "https://robotjames.substack.com/feed"
+    },
+    {
+      "name": "Robonomics",
+      "feed": "https://robonomics.substack.com/feed"
+    },
+    {
+      "name": "Robots & Startups",
+      "feed": "https://robotsandstartups.substack.com/feed"
+    },
+    {
+      "name": "SaaSletter",
+      "feed": "https://www.saasletter.com/feed"
+    },
+    {
+      "name": "Scalper's Lounge",
+      "feed": "https://scalpavelli.substack.com/feed"
+    },
+    {
+      "name": "scuttleblurb",
+      "feed": "https://scuttleblurb.substack.com/feed"
+    },
+    {
+      "name": "SeattleDataGuy's Newsletter",
+      "feed": "https://seattledataguy.substack.com/feed"
+    },
+    {
+      "name": "SemiAnalysis",
+      "feed": "https://newsletter.semianalysis.com/feed"
+    },
+    {
+      "name": "SEMIVISION @_@",
+      "feed": "https://tspasemiconductor.substack.com/feed"
+    },
+    {
+      "name": "Serenity",
+      "feed": "https://aleabitoreddit.substack.com/feed"
+    },
+    {
+      "name": "signull vs. noise",
+      "feed": "https://signull.substack.com/feed"
+    },
+    {
+      "name": "Simeon Capital",
+      "feed": "https://simeoncapitalsr.substack.com/feed"
+    },
+    {
+      "name": "Simon Willison's Newsletter",
+      "feed": "https://simonw.substack.com/feed"
+    },
+    {
+      "name": "Singularity Research",
+      "feed": "https://singularityresearchfund.substack.com/feed"
+    },
+    {
+      "name": "Sinification",
+      "feed": "https://www.sinification.org/feed"
+    },
+    {
+      "name": "Six Degrees of Robotics",
+      "feed": "https://sixdegreesofrobotics.substack.com/feed"
+    },
+    {
+      "name": "Software Analyst Cyber Research",
+      "feed": "https://softwareanalyst.substack.com/feed"
+    },
+    {
+      "name": "Software Synthesis",
+      "feed": "https://www.akashbajwa.co/feed"
+    },
+    {
+      "name": "Speedwell Memos",
+      "feed": "https://www.speedwellmemos.com/feed"
+    },
+    {
+      "name": "Springbok Finance",
+      "feed": "https://springbokfinance.substack.com/feed"
+    },
+    {
+      "name": "State of AI",
+      "feed": "https://stateai.substack.com/feed"
+    },
+    {
+      "name": "State of AI newsletter",
+      "feed": "https://nathanbenaich.substack.com/feed"
+    },
+    {
+      "name": "Steve Eisman",
+      "feed": "https://realeismanplaybook.substack.com/feed"
+    },
+    {
+      "name": "Stock Thoughts",
+      "feed": "https://www.thestockthoughts.com/feed"
+    },
+    {
+      "name": "SwirlAI Newsletter",
+      "feed": "https://www.newsletter.swirlai.com/feed"
+    },
+    {
+      "name": "Tailwinds",
+      "feed": "https://apoorv03.com/feed"
+    },
+    {
+      "name": "Take Rate | Marketplaces",
+      "feed": "https://colingardiner.substack.com/feed"
+    },
+    {
+      "name": "Take Rate | Marketplaces",
+      "feed": "https://www.gardinercolin.com/feed"
+    },
+    {
+      "name": "Takeoff Tracker",
+      "feed": "https://blog.takeofftracker.com/feed"
+    },
+    {
+      "name": "Takeoff Tracker",
+      "feed": "https://kthuot.substack.com/feed"
+    },
+    {
+      "name": "Tanay's Newsletter",
+      "feed": "https://www.tanayj.com/feed"
+    },
+    {
+      "name": "Tech Investments",
+      "feed": "https://www.techinvestments.io/feed"
+    },
+    {
+      "name": "Tech World With Milan Newsletter",
+      "feed": "https://newsletter.techworld-with-milan.com/feed"
+    },
+    {
+      "name": "Technically",
+      "feed": "https://read.technically.dev/feed"
+    },
+    {
+      "name": "The AI Corner",
+      "feed": "https://www.the-ai-corner.com/feed"
+    },
+    {
+      "name": "The AI Frontier",
+      "feed": "https://frontierai.substack.com/feed"
+    },
+    {
+      "name": "The Algorithmic Bridge",
+      "feed": "https://www.thealgorithmicbridge.com/feed"
+    },
+    {
+      "name": "The Bear Cave",
+      "feed": "https://thebearcave.substack.com/feed"
+    },
+    {
+      "name": "The Chip Letter",
+      "feed": "https://thechipletter.substack.com/feed"
+    },
+    {
+      "name": "The Coastal Journal",
+      "feed": "https://coastaljournal.substack.com/feed"
+    },
+    {
+      "name": "The Cyber Hut Radar - Identity Security and IAM Intelligence",
+      "feed": "https://radar.thecyberhut.com/feed"
+    },
+    {
+      "name": "The Cybersecurity Pulse (TCP)",
+      "feed": "https://www.cybersecuritypulse.net/feed"
+    },
+    {
+      "name": "The Diff (Byrne Hobart)",
+      "feed": "https://www.thediff.co/archive/rss"
+    },
+    {
+      "name": "The Diligence Stack - By Creative Strategies",
+      "feed": "https://www.thediligencestack.com/feed"
+    },
+    {
+      "name": "The Dutch Investors",
+      "feed": "https://thedutchinvestors.substack.com/feed"
+    },
+    {
+      "name": "The Economist: Off the Charts",
+      "feed": "https://theeconomistoffthecharts.substack.com/feed"
+    },
+    {
+      "name": "The Financial Pen",
+      "feed": "https://thefinancialpen.substack.com/feed"
+    },
+    {
+      "name": "The Free Press",
+      "feed": "https://bariweiss.substack.com/feed"
+    },
+    {
+      "name": "The Free Press",
+      "feed": "https://www.thefp.com/feed"
+    },
+    {
+      "name": "The Infrastructure Thesis",
+      "feed": "https://infrathesis.substack.com/feed"
+    },
+    {
+      "name": "The Last Bear Standing",
+      "feed": "https://www.thelastbearstanding.com/feed"
+    },
+    {
+      "name": "The Lion's Roar - Outside the Box Investments",
+      "feed": "https://dominickdangelo.substack.com/feed"
+    },
+    {
+      "name": "The Long Game",
+      "feed": "https://wealthap.substack.com/feed"
+    },
+    {
+      "name": "The Macro Compass",
+      "feed": "https://themacrocompass.substack.com/feed"
+    },
+    {
+      "name": "THE MODERN INVESTING NEWSLETTER",
+      "feed": "https://moderninvesting.substack.com/feed"
+    },
+    {
+      "name": "The Mwango Weekly",
+      "feed": "https://mwangocapital.substack.com/feed"
+    },
+    {
+      "name": "The Next Economy by Florian Kronawitter",
+      "feed": "https://www.nexteconomy.co/feed"
+    },
+    {
+      "name": "The Overshoot",
+      "feed": "https://theovershoot.co/feed"
+    },
+    {
+      "name": "The Pragmatic Engineer",
+      "feed": "https://newsletter.pragmaticengineer.com/feed"
+    },
+    {
+      "name": "The Quantum Cat",
+      "feed": "https://www.thequantumcat.space/feed"
+    },
+    {
+      "name": "The Roots of Progress",
+      "feed": "https://newsletter.rootsofprogress.org/feed"
+    },
+    {
+      "name": "The Substack Post",
+      "feed": "https://post.substack.com/feed"
+    },
+    {
+      "name": "The Tech Investor",
+      "feed": "https://thetechinvestor1.substack.com/feed"
+    },
+    {
+      "name": "The Tortoisehare",
+      "feed": "https://tortoisehare.substack.com/feed"
+    },
+    {
+      "name": "The Transcript",
+      "feed": "https://thetranscript.substack.com/feed"
+    },
+    {
+      "name": "The Unicus Investor",
+      "feed": "https://contrarianunicus.substack.com/feed"
+    },
+    {
+      "name": "The VC Corner",
+      "feed": "https://thevccorner.substack.com/feed"
+    },
+    {
+      "name": "The Verticalist",
+      "feed": "https://euclid.substack.com/feed"
+    },
+    {
+      "name": "The Verticalist",
+      "feed": "https://insights.euclid.vc/feed"
+    },
+    {
+      "name": "The Weekly ChartStorm",
+      "feed": "https://www.chartstorm.info/feed"
+    },
+    {
+      "name": "The Wire China's Substack",
+      "feed": "https://thewirechina.substack.com/feed"
+    },
+    {
+      "name": "ThematicEdge",
+      "feed": "https://thematicedge.substack.com/feed"
+    },
+    {
+      "name": "Theory of the Game",
+      "feed": "https://reidhoffman.substack.com/feed"
+    },
+    {
+      "name": "This Week in AI",
+      "feed": "https://thisweekinaiclub.substack.com/feed"
+    },
+    {
+      "name": "This Week in Startups",
+      "feed": "https://twistartups.substack.com/feed"
+    },
+    {
+      "name": "Topdown Charts Professional",
+      "feed": "https://www.topdowncharts.pro/feed"
+    },
+    {
+      "name": "Trade War",
+      "feed": "https://dexter.substack.com/feed"
+    },
+    {
+      "name": "TrendForce",
+      "feed": "https://insights.trendforce.com/feed"
+    },
+    {
+      "name": "Understanding AI",
+      "feed": "https://understandingai.substack.com/feed"
+    },
+    {
+      "name": "Understanding AI",
+      "feed": "https://www.understandingai.org/feed"
+    },
+    {
+      "name": "Useful Fictions",
+      "feed": "https://usefulfictions.substack.com/feed"
+    },
+    {
+      "name": "Useful Information",
+      "feed": "https://emmalmcaleavy.substack.com/feed"
+    },
+    {
+      "name": "VC Hiring",
+      "feed": "https://vchiring.substack.com/feed"
+    },
+    {
+      "name": "Venture in Security",
+      "feed": "https://ventureinsecurity.net/feed"
+    },
+    {
+      "name": "Vik's Newsletter",
+      "feed": "https://www.viksnewsletter.com/feed"
+    },
+    {
+      "name": "Voss Capital",
+      "feed": "https://vosscapital.substack.com/feed"
+    },
+    {
+      "name": "VuTrinh.",
+      "feed": "https://vutr.substack.com/feed"
+    },
+    {
+      "name": "Will Lockett's Newsletter",
+      "feed": "https://www.planetearthandbeyond.co/feed"
+    },
+    {
+      "name": "Works in Progress",
+      "feed": "https://www.worksinprogress.news/feed"
     }
   ]
 }

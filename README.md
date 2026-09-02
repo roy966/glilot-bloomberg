@@ -34,7 +34,7 @@ The browser loads **`/data/live.json`** when that file is present and well-forme
 
 X handles (`data/handles.json`): `SemiAnalysis_`, `dwarkesh_sp`, `sama`, `AnthropicAI`, `OpenAI` only. Never poll a large (~3800) watchlist.
 
-Substack pubs (`data/substacks.json`): SemiAnalysis, Stratechery, Import AI, Latent Space, plus a few cyber/semis/AI feeds. Replace/extend from Shauli’s workbook when available.
+Substack pubs (`data/substacks.json`): Shauli’s tracker from `Substack Accounts - updated list.xlsx` (`name` + `feed_url`), unique by feed URL, as `{name, feed}`. RSS only. KEEP still applies so the portal does not dump every post. Gold example publication: MKW Semiconductors (`https://mkwsemiconductors.substack.com/feed`).
 
 ### Quality gates
 
@@ -80,7 +80,7 @@ Keyword · handle/source · ticker (aliases: TSMC→TSM, Cloudflare→NET) · to
 - `data/universe.csv` — close-watch extract from Glilot `Companies_Universe.xlsx`
 - `data/tweets.json` — 42 triaged seed items (relative offsets so Today/24h/7d stay populated)
 - `data/handles.json` — high-signal X usernames
-- `data/substacks.json` — high-signal Substack RSS urls
+- `data/substacks.json` — Shauli Substack tracker RSS urls (`{name, feed}`)
 - `data/live.json` — optional mixed live feed (written by ingest)
 - `static/charts/*.svg` — Bloomberg-style **seed** charts only (never attached to live ids)
 

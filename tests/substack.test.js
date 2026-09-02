@@ -3,7 +3,15 @@ import assert from "node:assert/strict";
 import { parseRssItems, makeSubstackId } from "../lib/rss.js";
 import { judgeSubstackKeep } from "../lib/triage.js";
 import { dataFile, loadUniverse } from "../lib/universe.js";
-import { imagesFromHtml, verifySubstackPermalink } from "../lib/substack.js";
+import {
+  imagesFromHtml,
+  loadPublications,
+  publicationsFromDoc,
+  MAX_SUBSTACK_PUBS,
+  verifySubstackPermalink,
+} from "../lib/substack.js";
+import { loadHandles } from "../lib/ingest.js";
+import { packBatches } from "../lib/query.js";
 import { runIngest } from "../lib/ingest.js";
 
 const universe = loadUniverse(dataFile("universe.csv"));
@@ -84,6 +92,50 @@ test("verify substack permalink slug match / 404", async () => {
   assert.equal(bad.ok, false);
 });
 
+test("Shauli tracker loads unique {name, feed} RSS pubs including MKW", () => {
+  const pubs = loadPublications();
+  assert.ok(pubs.length >= 278);
+  assert.ok(pubs.length <= MAX_SUBSTACK_PUBS);
+  const mkw = pubs.find((p) => /mkwsemiconductors\.substack\.com\/feed$/i.test(p.feed));
+  assert.equal(mkw?.name, "MKW Semiconductors");
+  assert.equal(mkw?.rss, "https://mkwsemiconductors.substack.com/feed");
+  assert.ok(pubs.every((p) => p.feed && p.feed === p.rss && /^https:\/\//i.test(p.feed)));
+  const feeds = new Set(pubs.map((p) => p.feed.toLowerCase().replace(/\/$/, "")));
+  assert.equal(feeds.size, pubs.length);
+});
+
+test("publicationsFromDoc reads feed or rss and refuses an oversized list", () => {
+  const one = publicationsFromDoc({
+    publications: [{ name: "Import AI", feed: "https://importai.substack.com/feed" }],
+  });
+  assert.equal(one.length, 1);
+  assert.equal(one[0].rss, "https://importai.substack.com/feed");
+  const legacy = publicationsFromDoc({
+    publications: [{ name: "Import AI", rss: "https://importai.substack.com/feed" }],
+  });
+  assert.equal(legacy[0].feed, "https://importai.substack.com/feed");
+  const huge = {
+    publications: Array.from({ length: MAX_SUBSTACK_PUBS + 1 }, (_, i) => ({
+      name: `Pub ${i}`,
+      feed: `https://example${i}.substack.com/feed`,
+    })),
+  };
+  assert.throws(() => publicationsFromDoc(huge), /oversized/);
+});
+
+test("X five-handle split is unchanged", () => {
+  const handles = loadHandles().map((h) => h.userName);
+  assert.deepEqual(handles, ["SemiAnalysis_", "dwarkesh_sp", "sama", "AnthropicAI", "OpenAI"]);
+  const batches = packBatches(handles, 1715817600);
+  assert.equal(batches.length, 1);
+});
+
+test("KEEP numbered MKW memory/semis post; DROP unread dump", () => {
+  const gold =
+    "Memory Market Enters the New Normal. DRAM bit growth is 20% against 100% demand. Micron still prints 50% operating margins while NAND and HBM remain tight.";
+  assert.equal(judgeSubstackKeep(gold, { universe }).keep, true);
+});
+
 test("ingest Substack without twitter key merges KEEP rows", async () => {
   const permalink = "https://importai.substack.com/p/nvidia-132kw-and-20-percent";
   const rss = `<?xml version="1.0"?><rss><channel>
@@ -95,14 +147,19 @@ test("ingest Substack without twitter key merges KEEP rows", async () => {
       <content:encoded><![CDATA[<p>NVIDIA GB300 NVL72 drawing 132 kW at the rack; CoWoS is 20% short of 2026 demand.</p><img src="https://substackcdn.com/image/fetch/chart.png" />]]></content:encoded>
     </item>
   </channel></rss>`;
+  const empty = `<?xml version="1.0"?><rss><channel></channel></rss>`;
   const fetchImpl = async (url) => {
-    if (String(url).includes("/feed")) {
+    const u = String(url);
+    if (u === "https://importai.substack.com/feed") {
       return { ok: true, status: 200, text: async () => rss };
     }
-    if (String(url).includes("substackcdn.com")) {
+    if (/\/feed(?:\?|$)|format=rss|\/archive\/rss/i.test(u)) {
+      return { ok: true, status: 200, text: async () => empty };
+    }
+    if (u.includes("substackcdn.com")) {
       return { ok: true, status: 200 };
     }
-    if (String(url).startsWith("https://importai.substack.com/p/")) {
+    if (u.startsWith("https://importai.substack.com/p/")) {
       return {
         ok: true,
         status: 200,
