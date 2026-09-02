@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GLILOT · X NEWS</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' fill='%23000'/%3E%3Crect x='2' y='2' width='12' height='12' fill='%23ff9900'/%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="shell">
+      <header class="topbar">
+        <span class="brand">GLILOT HF</span>
+        <span class="sep">│</span>
+        <span class="meta">X / NEWS</span>
+        <span class="sep">│</span>
+        <span class="meta" id="clock">IST --:--:--</span>
+        <span class="sep">│</span>
+        <span class="dim">J/K MOVE · ENTER OPEN X · SEED FEED</span>
+      </header>
+
+      <section class="filters" id="filters">
+        <div class="f-row">
+          <label>KEYWORD<input id="keyword" type="text" placeholder="search" autocomplete="off" /></label>
+          <label>HANDLE / SOURCE<input id="handle" type="text" placeholder="SemiAnalysis" autocomplete="off" /></label>
+          <label>TICKER<input id="ticker" type="text" placeholder="TSMC / NVDA" autocomplete="off" /></label>
+          <div class="seg" role="group" aria-label="TIME">
+            <span class="seg-lab">TIME</span>
+            <button type="button" data-time="TODAY">TODAY</button>
+            <button type="button" data-time="24H">24H</button>
+            <button type="button" class="on" data-time="7D">7D</button>
+          </div>
+        </div>
+        <div class="f-row pills" id="flags">
+          <span class="pill-lab">FLAGS</span>
+          <button type="button" data-flag="media">HAS CHART/MEDIA</button>
+          <button type="button" data-flag="universe">UNIVERSE ONLY</button>
+        </div>
+        <div class="f-row pills" id="sectors">
+          <span class="pill-lab">SECTORS</span>
+        </div>
+        <div class="f-row pills" id="themes">
+          <span class="pill-lab">THEMES</span>
+        </div>
+        <div class="counts" id="counts"></div>
+      </section>
+
+      <div class="feed-wrap">
+        <div class="cols">
+          <span>Time</span><span>Tweet</span><span>Category</span><span>Source</span>
+        </div>
+        <div class="feed" id="feed" tabindex="0"></div>
+      </div>
+
+      <section class="detail" id="detail"></section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

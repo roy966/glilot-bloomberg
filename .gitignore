@@ -3,3 +3,8 @@ __pycache__/
 *.pyc
 .streamlit/secrets.toml
 .DS_Store
+node_modules/
+dist/
+public/charts/
+public/data/
+
