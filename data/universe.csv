@@ -1,0 +1,82 @@
+ticker,name,sector,sub_sector,composite,aliases,close_watch,ticker_raw
+CSCO,"Cisco Systems, Inc.",Cyber Related,Network,3.95,"Cisco|CSCO|Cisco Systems, Inc.",1,NasdaqGS:CSCO
+DDOG,Datadog,Cyber Related,Observability,5.00,Datadog|DDOG,1,NasdaqGS:DDOG
+DT,Dynatrace,Cyber Related,Observability,3.90,Dynatrace|DT,1,NYSE:DT
+ESTC,Elastic,Cyber Related,Observability,4.50,Elastic|ESTC,1,NYSE:ESTC
+FROG,JFrog,Cyber Related,AppSec,5.05,JFrog|FROG,1,NasdaqGS:FROG
+GOOGL,Google,Cyber Related,Cloud,5.40,Google|Alphabet|GOOGL|GOOG,1,NasdaqGS:GOOGL
+GTLB,GitLab,Cyber Related,AppSec,3.65,GitLab|GTLB,1,NasdaqGS:GTLB
+IBM,International Business Machines Corporation,Cyber Related,Data,4.60,IBM|International Business Machines|International Business Machines Corporation,1,NYSE:IBM
+MSFT,Microsoft,Cyber Related,Cloud,5.50,Microsoft|MSFT|Azure,1,NasdaqGS:MSFT
+NET,Cloudflare,Cyber Related,SASE,5.75,Cloudflare|NET,1,NYSE:NET
+NOW,ServiceNow,Cyber Related,Observability,4.75,ServiceNow|NOW,1,NYSE:NOW
+SNOW,Snowflake,Cyber Related,Observability,5.65,Snowflake|SNOW,1,NYSE:SNOW
+ASTS,"AST SpaceMobile, Inc.",Emerging Tech,Alternative Carriers,3.45,"AST SpaceMobile|ASTS|AST SpaceMobile, Inc.",1,NasdaqGS:ASTS
+CWAN,"Clearwater Analytics Holdings, Inc.",Emerging Tech,Application Software,5.15,"Clearwater|CWAN|Clearwater Analytics Holdings, Inc.",1,NYSE:CWAN
+IRDM,Iridium Communications Inc.,Emerging Tech,Alternative Carriers,4.85,Iridium|IRDM|Iridium Communications Inc.,1,NasdaqGS:IRDM
+ISRG,"Intuitive Surgical, Inc.",Emerging Tech,Robotics & Physical AI,5.70,"Intuitive Surgical|ISRG|Intuitive Surgical, Inc.",1,NasdaqGS:ISRG
+RKLB,Rocket Lab Corporation,Emerging Tech,Space & Satellite,4.65,Rocket Lab|RKLB|Rocket Lab Corporation,1,NasdaqCM:RKLB
+TSLA,Tesla Inc.,Emerging Tech,Robotics & Physical AI,4.35,Tesla|TSLA|Tesla Inc.,1,NasdaqGS:TSLA
+AMZN,"Amazon.com, Inc.",Horizontal SW,Cloud,5.25,"Amazon|AWS|AMZN|Amazon.com, Inc.",1,NasdaqGS:AMZN
+BILL,Bill,Horizontal SW,G&A,5.10,Bill.com|BILL|Bill,1,NYSE:BILL
+CIFR,Cipher Digital Inc.,Horizontal SW,NeoClouds,3.75,Cipher|CIFR|Cipher Digital Inc.,1,NasdaqGS:CIFR
+CRM,Salesforce,Horizontal SW,S&M,4.80,Salesforce|CRM,1,NYSE:CRM
+CRWV,CoreWeave,Horizontal SW,NeoClouds,4.75,CoreWeave|CRWV,1,NasdaqGS:CRWV
+HUT,Hut 8 Corp.,Horizontal SW,NeoClouds,3.75,Hut 8|Hut8|HUT|Hut 8 Corp.,1,NasdaqGS:HUT
+INTU,Intuit,Horizontal SW,G&A,5.10,Intuit|INTU,1,NasdaqGS:INTU
+IREN,IREN Limited,Horizontal SW,NeoClouds,4.30,IREN|Iris Energy|IREN Limited,1,NasdaqGS:IREN
+MDB,MongoDB,Horizontal SW,PaaS,5.05,MongoDB|MDB,1,NasdaqGM:MDB
+NBIS,Nebius,Horizontal SW,Cloud,4.85,Nebius|NBIS,1,NasdaqGS:NBIS
+ORCL,Oracle,Horizontal SW,Cloud,5.20,Oracle|ORCL,1,NYSE:ORCL
+PLTR,Palantir,Horizontal SW,X-Departments,5.00,Palantir|PLTR,1,NasdaqGS:PLTR
+SAP,SAP,Horizontal SW,G&A,4.95,SAP,1,XTRA:SAP
+SHOP,Shopify,Horizontal SW,S&M,5.00,Shopify|SHOP,1,NYSE:SHOP
+TWLO,Twilio,Horizontal SW,S&M,4.85,Twilio|TWLO,1,NYSE:TWLO
+VERX,Vertex,Horizontal SW,G&A,5.10,Vertex|VERX,1,NasdaqGS:VERX
+VRSN,Verisign,Horizontal SW,R&D,5.10,Verisign|VRSN,1,NasdaqGS:VRSN
+CHKP,Check Point,Pure Cyber,Network,3.45,Check Point|Check Point Software|CHKP,1,NasdaqGS:CHKP
+CLBT,Cellebrite,Pure Cyber,Specialized,4.80,Cellebrite|CLBT,1,NasdaqGS:CLBT
+CRWD,CrowdStrike,Pure Cyber,Endpoint,3.65,CrowdStrike|Crowdstrike|CRWD,1,NasdaqGS:CRWD
+CVLT,Commvault,Pure Cyber,Data,4.60,Commvault|CVLT,1,NasdaqGS:CVLT
+FTNT,Fortinet,Pure Cyber,Network,3.65,Fortinet|FTNT,1,NasdaqGS:FTNT
+NTSK,Netskope,Pure Cyber,SASE,3.40,Netskope|NTSK,1,NasdaqGS:NTSK
+OKTA,Okta,Pure Cyber,Identity,5.00,Okta|OKTA,1,NasdaqGS:OKTA
+PANW,Palo Alto Networks,Pure Cyber,Network,4.40,Palo Alto|Palo Alto Networks|PANW|CyberArk,1,NasdaqGS:PANW
+RBRK,Rubrik,Pure Cyber,Data,4.55,Rubrik|RBRK,1,NYSE:RBRK
+S,SentinelOne,Pure Cyber,Endpoint,2.85,SentinelOne|S,1,NYSE:S
+SAIL,SailPoint,Pure Cyber,Identity,5.00,SailPoint|SAIL,1,NasdaqGS:SAIL
+TENB,Tenable,Pure Cyber,Exposure,2.65,Tenable|TENB,1,NasdaqGS:TENB
+VRNS,Varonis,Pure Cyber,Data,5.15,Varonis|VRNS,1,NasdaqGS:VRNS
+ZS,Zscaler,Pure Cyber,SASE,3.50,Zscaler|ZS,1,NasdaqGS:ZS
+ACN,Accenture,SI,Global Consulting,4.20,Accenture|ACN,1,NYSE:ACN
+CTSH,Cognizant,SI,Global Consulting,3.35,Cognizant|CTSH,1,NasdaqGS:CTSH
+EPAM,EPAM,SI,Digital Engineering,3.35,EPAM,1,NYSE:EPAM
+GIB,CGI,SI,Global Consulting,3.95,CGI|GIB,1,TSX:GIB.A
+GLOB,Globant,SI,Digital Engineering,3.00,Globant|GLOB,1,NYSE:GLOB
+INFY,Infosys,SI,Global Consulting,3.35,Infosys|INFY,1,NSEI:INFY
+IT,Gartner,SI,Research & Advisory,3.95,Gartner|IT,1,NYSE:IT
+AMBA,"Ambarella, Inc.",Semis & HW,Edge AI / Vision / Sensor SoC,3.80,"Ambarella|AMBA|Ambarella, Inc.",1,NasdaqGS:AMBA
+AMD,"Advanced Micro Devices, Inc.",Semis & HW,Compute — AI / GPU / CPU (Datacenter),4.30,"AMD|Advanced Micro Devices|Advanced Micro Devices, Inc.",1,NasdaqGS:AMD
+ANET,"Arista Networks, Inc.",Semis & HW,Networking Equipment (Datacenter Fabric),4.50,"Arista|ANET|Arista Networks, Inc.",1,NYSE:ANET
+ARM,Arm Holdings plc,Semis & HW,EDA & Design IP,5.20,Arm|ARM|Arm Holdings plc,1,NasdaqGS:ARM
+ASML,ASML Holding N.V.,Semis & HW,Semi Equipment — Lithography & Masks,6.70,ASML|ASML Holding N.V.,1,ENXTAM:ASML
+AVGO,Broadcom Inc.,Semis & HW,Networking & Interconnect Silicon,5.60,Broadcom|AVGO|Broadcom Inc.,1,NasdaqGS:AVGO
+CRDO,Credo Technology Group Holding Ltd,Semis & HW,Networking & Interconnect Silicon,3.90,Credo|CRDO|Credo Technology Group Holding Ltd,1,NasdaqGS:CRDO
+DELL,Dell Technologies Inc.,Semis & HW,Server & Storage Systems,2.50,Dell|DELL|Dell Technologies Inc.,1,NYSE:DELL
+INTC,Intel Corporation,Semis & HW,Compute — AI / GPU / CPU (Datacenter),4.20,Intel|INTC|Intel Corporation,1,NasdaqGS:INTC
+LITE,Lumentum Holdings Inc.,Semis & HW,Optics & Photonics (Datacenter),4.50,Lumentum|LITE|Lumentum Holdings Inc.,1,NasdaqGS:LITE
+MRVL,"Marvell Technology, Inc.",Semis & HW,Networking & Interconnect Silicon,4.40,"Marvell|MRVL|Marvell Technology, Inc.",1,NasdaqGS:MRVL
+MU,"Micron Technology, Inc.",Semis & HW,Memory (DRAM / NAND / Emerging),5.30,"Micron|MU|Micron Technology, Inc.",1,NasdaqGS:MU
+NVDA,NVIDIA Corporation,Semis & HW,Compute — AI / GPU / CPU (Datacenter),5.80,NVIDIA|Nvidia|NVDA|NVIDIA Corporation,1,NasdaqGS:NVDA
+RMBS,Rambus Inc.,Semis & HW,Networking & Interconnect Silicon,4.10,Rambus|RMBS|Rambus Inc.,1,NasdaqGS:RMBS
+TSM,Taiwan Semiconductor Manufacturing Company Limited,Semis & HW,Foundry (Pure-Play),6.00,TSMC|Taiwan Semiconductor|2330|TSM|Taiwan Semiconductor Manufacturing Company Limited,1,TWSE:2330
+ADSK,Autodesk,Vertical SW,AEC,5.35,Autodesk|ADSK,1,NasdaqGS:ADSK
+CDNS,Cadence Design Systems,Vertical SW,Semis Design,6.00,Cadence|CDNS|Cadence Design Systems,1,NasdaqGS:CDNS
+DASH,DoorDash,Vertical SW,Gig Economy,5.55,DoorDash|DASH,1,NasdaqGS:DASH
+DSGX,Descartes Systems Group,Vertical SW,Supply Chain,5.60,Descartes|DSGX|Descartes Systems Group,1,NasdaqGS:DSGX
+FICO,FICO,Vertical SW,Fintech,6.55,FICO|Fair Isaac,1,NYSE:FICO
+SNPS,Synopsys,Vertical SW,Semis Design,6.00,Synopsys|SNPS,1,NasdaqGS:SNPS
+TOST,Toast,Vertical SW,Restaurants,5.00,Toast|TOST,1,NYSE:TOST
+TYL,Tyler Technologies,Vertical SW,Federal,4.85,Tyler|Tyler Technologies|TYL,1,NYSE:TYL
+UBER,Uber,Vertical SW,Gig Economy,5.55,Uber|UBER,1,NYSE:UBER
+VRSK,Verisk,Vertical SW,Insurance,5.70,Verisk|VRSK,1,NasdaqGS:VRSK

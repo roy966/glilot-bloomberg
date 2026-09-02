@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+html, body, .stApp, [data-testid="stAppViewContainer"] {
+  background: #000 !important;
+  color: #ffb000;
+  font-family: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif !important;
+}
+
+header[data-testid="stHeader"] {
+  display: none !important;
+  height: 0 !important;
+}
+
+[data-testid="stToolbar"],
+[data-testid="stDecoration"],
+#MainMenu, footer, .stDeployButton {
+  display: none !important;
+}
+
+.block-container {
+  padding: 0.15rem 0.55rem 0.5rem !important;
+  max-width: 100% !important;
+}
+
+[data-testid="stVerticalBlock"] {
+  gap: 0.22rem !important;
+}
+
+[data-testid="stHorizontalBlock"] {
+  gap: 0.28rem !important;
+  flex-wrap: nowrap;
+}
+
+[data-testid="stWidgetLabel"] p,
+[data-testid="stWidgetLabel"] label,
+.stMarkdown p {
+  font-family: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif !important;
+}
+
+label, .stSelectbox label, .stMultiSelect label, .stTextInput label, .stRadio label {
+  color: #c47a00 !important;
+  font-size: 10px !important;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-weight: 600 !important;
+}
+
+div[data-baseweb="input"] > div,
+div[data-baseweb="select"] > div,
+.stTextInput input, .stMultiSelect div {
+  background: #0a0a0a !important;
+  color: #ffb000 !important;
+  border: 1px solid #3a2200 !important;
+  border-radius: 0 !important;
+  font-size: 12px !important;
+  min-height: 1.6rem !important;
+}
+
+.stTextInput input {
+  padding: 0.15rem 0.4rem !important;
+}
+
+[data-testid="stCheckbox"] label p {
+  color: #ffb000 !important;
+  font-size: 11px !important;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+[data-testid="stCheckbox"] {
+  padding-top: 0.45rem;
+}
+
+.stRadio [role="radiogroup"] {
+  gap: 0.15rem !important;
+  background: #000;
+}
+
+.stRadio [role="radiogroup"] label {
+  padding: 0.05rem 0.35rem !important;
+  background: #0a0a0a;
+  border: 1px solid #3a2200;
+  color: #ff9900 !important;
+  font-size: 11px !important;
+}
+
+[data-testid="stPills"] button,
+[data-testid="stButtonGroup"] button {
+  border-radius: 0 !important;
+  border: 1px solid #3a2200 !important;
+  background: #0a0a0a !important;
+  color: #c47a00 !important;
+  font-size: 10px !important;
+  letter-spacing: 0.04em;
+  padding: 0.05rem 0.35rem !important;
+  min-height: 1.35rem !important;
+}
+
+[data-testid="stPills"] button[aria-pressed="true"],
+[data-testid="stButtonGroup"] button[aria-pressed="true"] {
+  background: #2a1600 !important;
+  color: #ffe100 !important;
+  border-color: #ff9900 !important;
+}
+
+.bb-top {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  border-bottom: 1px solid #ff9900;
+  padding: 0 0 0.15rem 0;
+  margin: 0;
+  font-family: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+  white-space: nowrap;
+}
+.bb-brand {
+  color: #ffe100;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.18em;
+}
+.bb-sep { color: #5a3a00; }
+.bb-meta { color: #ff9900; font-size: 12px; letter-spacing: 0.08em; }
+.bb-dim { color: #8a5a00; font-size: 11px; letter-spacing: 0.06em; }
+.bb-count { color: #ffe100; font-size: 12px; margin-left: auto; }
+
+.bb-detail {
+  border-top: 1px solid #3a2200;
+  background: #070500;
+  padding: 0.45rem 0.55rem 0.55rem;
+  font-family: "IBM Plex Sans Condensed", "Arial Narrow", sans-serif;
+}
+.bb-detail h3 {
+  color: #ffe100;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.25rem 0;
+  text-transform: uppercase;
+}
+.bb-detail .full {
+  color: #ffb000;
+  font-size: 13px;
+  line-height: 1.35;
+  margin: 0 0 0.4rem 0;
+}
+.bb-detail a {
+  color: #ff9900;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border-bottom: 1px solid #5a3a00;
+}
+.bb-detail a:hover { color: #ffe100; }
+.bb-kvs {
+  color: #8a5a00;
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.35rem;
+}
+
+div[data-testid="stImage"] img {
+  background: #050505;
+  border: 1px solid #3a2200;
+}
+
+[data-testid="stMainBlockContainer"] { background: #000; }
+
+hr { margin: 0.15rem 0 !important; border-color: #3a2200 !important; }
