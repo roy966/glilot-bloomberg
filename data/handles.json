@@ -1,10 +1,85 @@
 {
-  "note": "High-signal X accounts only. Never poll a large watchlist.",
+  "note": "High-signal X accounts only. Original five plus gold-set examples Or saved. Never poll Shauli\u2019s ~3783 watchlist.",
   "handles": [
-    { "userName": "SemiAnalysis_", "tier": "specialist" },
-    { "userName": "dwarkesh_sp", "tier": "specialist" },
-    { "userName": "sama", "tier": "specialist" },
-    { "userName": "AnthropicAI", "tier": "specialist" },
-    { "userName": "OpenAI", "tier": "company" }
+    {
+      "userName": "SemiAnalysis_",
+      "tier": "specialist"
+    },
+    {
+      "userName": "dwarkesh_sp",
+      "tier": "specialist"
+    },
+    {
+      "userName": "sama",
+      "tier": "specialist"
+    },
+    {
+      "userName": "AnthropicAI",
+      "tier": "specialist"
+    },
+    {
+      "userName": "OpenAI",
+      "tier": "company"
+    },
+    {
+      "userName": "glocalinvestor",
+      "tier": "specialist"
+    },
+    {
+      "userName": "fi56622380",
+      "tier": "specialist"
+    },
+    {
+      "userName": "intelfabs",
+      "tier": "specialist"
+    },
+    {
+      "userName": "StockSavvyShay",
+      "tier": "specialist"
+    },
+    {
+      "userName": "pequityresearch",
+      "tier": "specialist"
+    },
+    {
+      "userName": "LivyResearch",
+      "tier": "specialist"
+    },
+    {
+      "userName": "arakharazian",
+      "tier": "specialist"
+    },
+    {
+      "userName": "aleabitoreddit",
+      "tier": "specialist"
+    },
+    {
+      "userName": "jukan05",
+      "tier": "specialist"
+    },
+    {
+      "userName": "jasonschips",
+      "tier": "specialist"
+    },
+    {
+      "userName": "knockouttrader",
+      "tier": "specialist"
+    },
+    {
+      "userName": "hanrui_w",
+      "tier": "specialist"
+    },
+    {
+      "userName": "HyperTechInvest",
+      "tier": "specialist"
+    },
+    {
+      "userName": "RealNickMugalli",
+      "tier": "specialist"
+    },
+    {
+      "userName": "zhiyu333",
+      "tier": "specialist"
+    }
   ]
 }
