@@ -1,4 +1,5 @@
 import "./style.css";
+import { isWellFormedLiveFeed } from "./live.js";
 
 const TZ = "Asia/Jerusalem";
 const SECTORS = [
@@ -144,16 +145,41 @@ function startOfToday(now) {
   return new Date(now.getTime() - ms);
 }
 
-function materialize(raw, now) {
+function parseTs(t, now) {
+  if (t.time) {
+    const d = new Date(t.time);
+    if (!Number.isNaN(d.getTime())) return d;
+  }
+  if (t.ts) {
+    const d = new Date(t.ts);
+    if (!Number.isNaN(d.getTime())) return d;
+  }
+  return new Date(now.getTime() - Number(t.offset_minutes || 0) * 60 * 1000);
+}
+
+function rewriteMedia(p, source) {
+  const s = String(p || "");
+  if (/^https?:\/\//i.test(s)) return s;
+  if (source === "live") return "";
+  return "/" + s.replace(/^static\//, "");
+}
+
+function materialize(raw, now, source) {
   return raw
-    .map((t) => ({
-      ...t,
-      ts: new Date(now.getTime() - Number(t.offset_minutes) * 60 * 1000),
-      tickers: t.tickers || [],
-      themes: t.themes || [],
-      sectors: t.sectors || [],
-      media: (t.media || []).map((p) => "/" + String(p).replace(/^static\//, "")),
-    }))
+    .map((t) => {
+      const media = (t.media || []).map((p) => rewriteMedia(p, source)).filter(Boolean);
+      const tickers = t.tickers || [];
+      return {
+        ...t,
+        ts: parseTs(t, now),
+        tickers,
+        themes: t.themes || [],
+        sectors: t.sectors || [],
+        media,
+        has_media: t.has_media ?? media.length > 0,
+        in_universe: t.in_universe ?? tickers.length > 0,
+      };
+    })
     .sort((a, b) => b.ts - a.ts);
 }
 
@@ -206,7 +232,9 @@ function applyFilters(rows, now, amap) {
 }
 
 function mediaSrc(p) {
-  return p.startsWith("/") ? p : `/${p}`;
+  const s = String(p || "");
+  if (/^https?:\/\//i.test(s)) return s;
+  return s.startsWith("/") ? s : `/${s}`;
 }
 
 function renderPills() {
@@ -409,15 +437,36 @@ function bind() {
   });
 }
 
+async function loadTweetRows() {
+  try {
+    const r = await fetch("/data/live.json");
+    if (r.ok) {
+      const data = await r.json();
+      if (isWellFormedLiveFeed(data)) return { rows: data, source: "live" };
+    }
+  } catch {
+    /* seed */
+  }
+  const rows = await fetch("/data/tweets.json").then((r) => r.json());
+  return { rows, source: "seed" };
+}
+
 async function boot() {
-  const [tweets, csv] = await Promise.all([
-    fetch("/data/tweets.json").then((r) => r.json()),
+  const [{ rows, source }, csv] = await Promise.all([
+    loadTweetRows(),
     fetch("/data/universe.csv").then((r) => r.text()),
   ]);
   const universe = parseCsv(csv);
   UNIVERSE_N = universe.length;
   AMAP = aliasMap(universe);
-  ALL = materialize(tweets, nowTz());
+  ALL = materialize(rows, nowTz(), source);
+  const mode = $("feed-mode");
+  if (mode) {
+    mode.textContent =
+      source === "live"
+        ? "J/K MOVE · ENTER OPEN X · LIVE"
+        : "J/K MOVE · ENTER OPEN X · SEED FEED";
+  }
   renderPills();
   bind();
   refresh();
