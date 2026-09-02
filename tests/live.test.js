@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { isLiveRow, isWellFormedLiveFeed, permalinkMatches } from "../src/live.js";
+import { isLiveRow, isWellFormedLiveFeed, permalinkMatches, mixesSeedCharts } from "../src/live.js";
 
 const okRow = {
   id: "1962100180123456789",
@@ -43,17 +43,24 @@ test("permalink user and id must match", () => {
   );
 });
 
-test("seed-style local SVG media is rejected for live rows", () => {
-  assert.equal(
-    isLiveRow({ ...okRow, media: ["static/charts/gpu-rack-kw.svg"] }),
-    false,
-  );
+test("seed charts mixed with live ids are rejected", () => {
+  const mixed = { ...okRow, media: ["static/charts/gpu-rack-kw.svg"] };
+  assert.equal(mixesSeedCharts(mixed), true);
+  assert.equal(isLiveRow(mixed), false);
+  assert.equal(isWellFormedLiveFeed([mixed]), false);
   assert.equal(
     isLiveRow({
       ...okRow,
       media: ["https://pbs.twimg.com/media/example.jpg"],
     }),
     true,
+  );
+});
+
+test("non-tweet CDN https is not live media", () => {
+  assert.equal(
+    isLiveRow({ ...okRow, media: ["https://example.com/chart.png"] }),
+    false,
   );
 });
 
@@ -65,4 +72,5 @@ test("empty or malformed live.json falls through", () => {
   delete missingTime.time;
   assert.equal(isWellFormedLiveFeed([missingTime]), false);
   assert.equal(isLiveRow({ ...okRow, top: "true" }), false);
+  assert.equal(isLiveRow({ ...okRow, id: "t001" }), false);
 });

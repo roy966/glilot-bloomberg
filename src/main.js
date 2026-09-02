@@ -1,5 +1,5 @@
 import "./style.css";
-import { isWellFormedLiveFeed } from "./live.js";
+import { isWellFormedLiveFeed, isTweetCdnMedia } from "./live.js";
 
 const TZ = "Asia/Jerusalem";
 const SECTORS = [
@@ -159,8 +159,8 @@ function parseTs(t, now) {
 
 function rewriteMedia(p, source) {
   const s = String(p || "");
+  if (source === "live") return isTweetCdnMedia(s) ? s : "";
   if (/^https?:\/\//i.test(s)) return s;
-  if (source === "live") return "";
   return "/" + s.replace(/^static\//, "");
 }
 
@@ -295,6 +295,15 @@ function renderDetail(row) {
       <a href="${esc(row.permalink)}" target="_blank" rel="noopener">OPEN ON X ↗ ${esc(row.permalink)}</a>
     </div>
     <div class="charts">${charts || `<div class="no-media">NO EMBEDDED CHART / IMAGE</div>`}</div>`;
+  el.querySelectorAll(".charts img").forEach((img) => {
+    img.addEventListener("error", () => {
+      const wrap = img.closest(".charts");
+      img.remove();
+      if (wrap && !wrap.querySelector("img")) {
+        wrap.innerHTML = `<div class="no-media">NO EMBEDDED CHART / IMAGE</div>`;
+      }
+    });
+  });
 }
 
 function setSelParam(id) {

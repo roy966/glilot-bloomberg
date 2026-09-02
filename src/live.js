@@ -1,5 +1,3 @@
-/** Shape check for off-Vercel `data/live.json`. No secrets. */
-
 const REQUIRED = [
   "id",
   "time",
@@ -13,11 +11,18 @@ const REQUIRED = [
   "top",
 ];
 
+/** Live hover media: this tweet's CDN URLs only. Never seed SVGs /charts/. */
+export function isTweetCdnMedia(u) {
+  if (typeof u !== "string" || !/^https:\/\//i.test(u)) return false;
+  if (/static\/charts|\/charts\//i.test(u)) return false;
+  return /pbs\.twimg\.com|video\.twimg\.com|ton\.twitter\.com/i.test(u);
+}
+
 export function permalinkMatches(row) {
   const id = String(row?.id ?? "");
   const handle = String(row?.handle ?? "").replace(/^@/, "");
   const permalink = String(row?.permalink ?? "");
-  if (!id || !handle || !permalink) return false;
+  if (!id || !/^\d+$/.test(id) || !handle || !permalink) return false;
   let url;
   try {
     url = new URL(permalink);
@@ -35,11 +40,13 @@ export function permalinkMatches(row) {
 
 export function mediaUrlsOk(media) {
   if (!Array.isArray(media)) return false;
-  return media.every((u) => {
-    if (typeof u !== "string" || !/^https:\/\//i.test(u)) return false;
-    if (/static\/charts/i.test(u)) return false;
-    return true;
-  });
+  return media.every((u) => isTweetCdnMedia(u));
+}
+
+export function mixesSeedCharts(row) {
+  const media = row?.media;
+  if (!Array.isArray(media)) return true;
+  return media.some((u) => /static\/charts|\/charts\//i.test(String(u)));
 }
 
 export function isLiveRow(row) {
@@ -47,7 +54,7 @@ export function isLiveRow(row) {
   for (const k of REQUIRED) {
     if (!(k in row)) return false;
   }
-  if (typeof row.id !== "string" || !row.id.trim()) return false;
+  if (typeof row.id !== "string" || !/^\d+$/.test(row.id)) return false;
   if (typeof row.time !== "string" || Number.isNaN(new Date(row.time).getTime())) return false;
   if (typeof row.summary !== "string" || !row.summary.trim()) return false;
   if (typeof row.full_text !== "string" || !row.full_text.trim()) return false;
@@ -56,6 +63,7 @@ export function isLiveRow(row) {
   if (typeof row.category !== "string" || !row.category.trim()) return false;
   if (typeof row.top !== "boolean") return false;
   if (!permalinkMatches(row)) return false;
+  if (mixesSeedCharts(row)) return false;
   if (!mediaUrlsOk(row.media)) return false;
   return true;
 }
