@@ -29,7 +29,7 @@ The browser loads **`/data/live.json`** when that file is present and well-forme
 
 `data/live.json` is written by an **off-Vercel** worker (`scripts/ingest-live.mjs`, GitHub Actions every 10 minutes). It merges **X** rows and **Substack** rows (`kind: "x"` | `kind: "substack"`). Vercel only hosts the built files.
 
-- **X:** `TWITTERAPI_IO_KEY` as a **GitHub Actions repository secret**, never on Vercel. If unset, X ingest is skipped.
+- **X:** `TWITTERAPI_IO_KEY` as a **GitHub Actions repository secret**, never on Vercel. If unset, X ingest is skipped. Search includes self-thread replies (no `-filter:replies`). First/catch-up lookback is **12 hours**; after `live.json` has X rows, the window resumes **~25–40 minutes**. Replies to other users DROP if the parent cannot be expanded; self-threads KEEP after expanding the parent (then the usual KEEP bar). Tweet ids already in the billing cache are still judged for KEEP unless they are already in `live.json`.
 - **Substack:** public RSS only (`https://<pub>.substack.com/feed` or `/feed` on a custom domain). No Substack API key. No `eliot_news_search`.
 
 X handles (`data/handles.json`): `SemiAnalysis_`, `dwarkesh_sp`, `sama`, `AnthropicAI`, `OpenAI` only. Never poll a large (~3800) watchlist.
@@ -43,7 +43,7 @@ KEEP is Hector / Glilot Record quality:
 - KEEP: AI / cyber / physical AI / semis / deep tech; material universe-company or supplier/customer news; numbers, primary sources, and/or charts **from that post**.
 - Substack KEEP also requires **two concrete numbers** in the post text (or its own chart labels — do not guess bar heights) **and** a Companies_Universe name or a real sector/sub-sector theme.
 - DROP: memes, price-spam, engagement bait, unsourced rumors, off-topic, gazetteer false positives, unread dumps, thin/promo/how-to/politics with no sector hit.
-- X: expand quote/parent/links/media or DROP. Permalink `https://x.com/{handle}/status/{id}` verified. Hover media is that tweet’s CDN URLs only.
+- X: expand quote/parent/links/media or DROP. Self-thread replies are fetched and KEEP after the parent expands. Replies to other users DROP if that parent cannot be expanded. Permalink `https://x.com/{handle}/status/{id}` verified. Hover media is that tweet’s CDN URLs only.
 - Substack: permalink is the post’s canonical **https** URL (substack.com or custom domain); id/slug must match. Hover media is that post’s images (og:image / RSS/html). Never invented SVGs. No media → `[]`.
 
 Live ids never mix with dummy seed charts. If `live.json` is missing or any row fails the shape, the site keeps the seed feed.
