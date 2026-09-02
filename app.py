@@ -275,20 +275,29 @@ def main() -> None:
     selected = qp.get("sel", "")
 
     nloc = now.astimezone(TZ)
-    st.markdown(
-        f"""<div class="bb-top">
-          <span class="bb-brand">GLILOT HF</span>
-          <span class="bb-sep">│</span>
-          <span class="bb-meta">X / NEWS</span>
-          <span class="bb-sep">│</span>
-          <span class="bb-meta">IST {nloc.strftime('%H:%M:%S')}</span>
-          <span class="bb-sep">│</span>
-          <span class="bb-dim">J/K MOVE · ENTER OPEN X · SEED FEED</span>
-        </div>""",
-        unsafe_allow_html=True,
+    components.html(
+        f"""<!DOCTYPE html><html><head><meta charset="utf-8"/>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+html,body{{margin:0;padding:0;background:#000;overflow:hidden;
+font-family:"IBM Plex Sans Condensed","Arial Narrow",sans-serif}}
+.bar{{display:flex;align-items:baseline;gap:12px;padding:4px 2px 6px;
+border-bottom:1px solid #ff9900;white-space:nowrap}}
+.brand{{color:#ffe100;font-weight:700;font-size:15px;letter-spacing:.18em}}
+.sep{{color:#5a3a00}}
+.meta{{color:#ff9900;font-size:12px;letter-spacing:.08em}}
+.dim{{color:#c47a00;font-size:11px;letter-spacing:.06em}}
+</style></head><body>
+<div class="bar">
+  <span class="brand">GLILOT HF</span><span class="sep">│</span>
+  <span class="meta">X / NEWS</span><span class="sep">│</span>
+  <span class="meta">IST {nloc.strftime('%H:%M:%S')}</span><span class="sep">│</span>
+  <span class="dim">J/K MOVE · ENTER OPEN X · SEED FEED</span>
+</div></body></html>""",
+        height=38,
     )
 
-    r1 = st.columns([2.2, 1.6, 1.3, 1.6, 0.9, 0.95])
+    r1 = st.columns([2.1, 1.7, 1.3, 1.8])
     with r1[0]:
         keyword = st.text_input("KEYWORD", placeholder="search", label_visibility="visible")
     with r1[1]:
@@ -296,17 +305,22 @@ def main() -> None:
     with r1[2]:
         ticker_q = st.text_input("TICKER", placeholder="TSMC / NVDA", label_visibility="visible")
     with r1[3]:
-        time_range = st.radio(
+        time_range = st.segmented_control(
             "TIME",
-            ["TODAY", "24H", "7D"],
-            index=2,
-            horizontal=True,
-            label_visibility="visible",
-        )
-    with r1[4]:
-        has_media = st.checkbox("HAS CHART/MEDIA", value=False)
-    with r1[5]:
-        universe_only = st.checkbox("UNIVERSE ONLY", value=False)
+            options=["TODAY", "24H", "7D"],
+            default="7D",
+            key="time_range",
+        ) or "7D"
+
+    flags = st.pills(
+        "FLAGS",
+        ["HAS CHART/MEDIA", "UNIVERSE ONLY"],
+        selection_mode="multi",
+        default=[],
+        label_visibility="visible",
+    )
+    has_media = "HAS CHART/MEDIA" in (flags or [])
+    universe_only = "UNIVERSE ONLY" in (flags or [])
 
     sectors = st.pills("SECTORS", SECTORS, selection_mode="multi", default=[], label_visibility="visible")
     themes = st.pills("THEMES", [f":{t}" for t in THEMES], selection_mode="multi", default=[], label_visibility="visible")
@@ -335,11 +349,10 @@ def main() -> None:
     n = len(filtered)
     n_uni = int(filtered["in_universe"].sum()) if n else 0
     n_media = int(filtered["has_media"].sum()) if n else 0
-    st.markdown(
-        f'<div class="bb-dim">{n} ITEMS&nbsp;&nbsp;·&nbsp;&nbsp;UNIVERSE {n_uni}'
+    st.html(
+        f'<div style="color:#8a5a00;font-size:11px;letter-spacing:.06em;font-family:\'IBM Plex Sans Condensed\',\'Arial Narrow\',sans-serif">{n} ITEMS&nbsp;&nbsp;·&nbsp;&nbsp;UNIVERSE {n_uni}'
         f'&nbsp;&nbsp;·&nbsp;&nbsp;MEDIA {n_media}&nbsp;&nbsp;·&nbsp;&nbsp;'
-        f'CLOSE-WATCH {len(universe)}</div>',
-        unsafe_allow_html=True,
+        f'CLOSE-WATCH {len(universe)}</div>'
     )
 
     feed = feed_html(filtered, now, selected)

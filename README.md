@@ -40,7 +40,7 @@ Keyboard (click the grid first): `J` / `K` or arrows move; `Enter` opens the per
 
 ## Filters (always on, combinable)
 
-Keyword · handle/source · ticker (aliases: TSMC→TSM, Cloudflare→NET) · seven universe sectors · theme chips · today / 24h / 7d · Has chart/media · Universe only.
+Keyword · handle/source · ticker (aliases: TSMC→TSM, Cloudflare→NET) · today / 24h / 7d · FLAGS `HAS CHART/MEDIA` and `UNIVERSE ONLY` · seven universe sectors · theme chips.
 
 ## Data
 

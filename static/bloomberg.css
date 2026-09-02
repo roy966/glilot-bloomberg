@@ -7,8 +7,8 @@ html, body, .stApp, [data-testid="stAppViewContainer"] {
 }
 
 header[data-testid="stHeader"] {
-  background: #000 !important;
-  height: 2.2rem;
+  display: none !important;
+  height: 0 !important;
 }
 
 [data-testid="stToolbar"],
@@ -18,7 +18,7 @@ header[data-testid="stHeader"] {
 }
 
 .block-container {
-  padding: 0.35rem 0.55rem 0.5rem !important;
+  padding: 0.15rem 0.55rem 0.5rem !important;
   max-width: 100% !important;
 }
 
