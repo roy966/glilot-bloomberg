@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-/** Off-Vercel live ingest. Reads TWITTERAPI_IO_KEY from the environment only.
- * Never logs the key. No-ops (seed stays) when the key is unset.
+/** Off-Vercel live ingest: X (needs TWITTERAPI_IO_KEY) + Substack public RSS (no key).
+ * Never logs secrets. X is skipped when the key is unset; Substack still runs.
  */
 import { runIngest } from "../lib/ingest.js";
 

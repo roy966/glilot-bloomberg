@@ -25,42 +25,39 @@ Optional Streamlit: `pip install -r streamlit-requirements.txt && streamlit run 
 
 ## Live vs seed
 
-The browser loads **`/data/live.json`** when that file is present and well-formed. Otherwise it uses seed **`data/tweets.json`**. If the ingest key is unset, ingest no-ops and the site stays on seed.
+The browser loads **`/data/live.json`** when that file is present and well-formed. Otherwise it uses seed **`data/tweets.json`**.
 
-`data/live.json` is written by an **off-Vercel** worker (`scripts/ingest-live.mjs`, GitHub Actions every 10 minutes). Vercel only hosts the built files. Put `TWITTERAPI_IO_KEY` in **GitHub Actions repository secrets**, never on Vercel.
+`data/live.json` is written by an **off-Vercel** worker (`scripts/ingest-live.mjs`, GitHub Actions every 10 minutes). It merges **X** rows and **Substack** rows (`kind: "x"` | `kind: "substack"`). Vercel only hosts the built files.
 
-High-signal handles only (`data/handles.json`). Never poll a large (~3800) watchlist.
+- **X:** `TWITTERAPI_IO_KEY` as a **GitHub Actions repository secret**, never on Vercel. If unset, X ingest is skipped.
+- **Substack:** public RSS only (`https://<pub>.substack.com/feed` or `/feed` on a custom domain). No Substack API key. No `eliot_news_search`.
 
-### Quality gates (every live row)
+X handles (`data/handles.json`): `SemiAnalysis_`, `dwarkesh_sp`, `sama`, `AnthropicAI`, `OpenAI` only. Never poll a large (~3800) watchlist.
 
-KEEP is Hector / Glilot Record quality, not “any tweet from the handle list”:
+Substack pubs (`data/substacks.json`): SemiAnalysis, Stratechery, Import AI, Latent Space, plus a few cyber/semis/AI feeds. Replace/extend from Shauli’s workbook when available.
+
+### Quality gates
+
+KEEP is Hector / Glilot Record quality:
 
 - KEEP: AI / cyber / physical AI / semis / deep tech; material universe-company or supplier/customer news; numbers, primary sources, and/or charts **from that post**.
-- DROP: memes, price-spam, engagement bait, unsourced rumors, off-topic, gazetteer false positives, unread/unjudged dumps.
-- Quoted/parent tweets, images, and links are expanded before judging. If they cannot be expanded, DROP.
-- Permalink must be the real API tweet: `https://x.com/{handle}/status/{id}`. The worker verifies it (oembed / syndication / twitterapi.io tweet-by-id). 404, wrong tweet, or missing id → DROP. The UI opens that exact link.
-- Hover media is that tweet’s own API CDN URLs (including quoted-tweet media). No invented SVGs, no seed `static/charts`, no other tweet’s chart. No media → no chart. If a media URL fails to load, it is omitted, not replaced.
+- Substack KEEP also requires **two concrete numbers** in the post text (or its own chart labels — do not guess bar heights) **and** a Companies_Universe name or a real sector/sub-sector theme.
+- DROP: memes, price-spam, engagement bait, unsourced rumors, off-topic, gazetteer false positives, unread dumps, thin/promo/how-to/politics with no sector hit.
+- X: expand quote/parent/links/media or DROP. Permalink `https://x.com/{handle}/status/{id}` verified. Hover media is that tweet’s CDN URLs only.
+- Substack: permalink is the post’s canonical **https** URL (substack.com or custom domain); id/slug must match. Hover media is that post’s images (og:image / RSS/html). Never invented SVGs. No media → `[]`.
 
 Live ids never mix with dummy seed charts. If `live.json` is missing or any row fails the shape, the site keeps the seed feed.
 
 ### `live.json` shape
 
-A JSON **array** of rows. Each row:
+A JSON **array** of rows. Each row has `kind`: `x` (default) or `substack`.
 
-| field | type | notes |
-| --- | --- | --- |
-| `id` | string | API tweet id (digits) |
-| `time` | string | ISO-8601 timestamp |
-| `summary` | string | One-line extractive summary. No ticker in this column |
-| `full_text` | string | Original tweet text |
-| `handle` | string | X username |
-| `source` | string | Account display name |
-| `category` | string | `:NVDA US` (TSMC → `:TSM US`, Cloudflare → `:NET US`) or one theme `:AI` `:ROBOTICS` `:SPACE` `:CYBER` `:CHIPS` `:MACRO` |
-| `permalink` | string | `https://x.com/{userName}/status/{id}` — `{id}` must match `id` |
-| `media` | string[] | That tweet’s own `pbs.twimg.com` / `video.twimg.com` URLs. `[]` if none |
-| `top` | boolean | Highlight row |
+Shared fields: `id`, `time` (ISO), `summary` (one-line, no ticker), `full_text`, `handle`, `source` (display name / publication name), `category` (`:NVDA US` or `:AI` / `:CHIPS` / …), `permalink`, `media[]`, `top`.
 
-Optional filter fields: `tickers`, `themes`, `sectors`, `in_universe`, `has_media`.
+| kind | `id` | `permalink` | `media` |
+| --- | --- | --- | --- |
+| `x` | API tweet id (digits) | `https://x.com/{userName}/status/{id}` | Tweet CDN (`pbs.twimg.com` / `video.twimg.com`) |
+| `substack` | post slug/guid (not only digits) | canonical https post URL | That post’s images (`substackcdn`, publication CDN, https images from the post). Never `/static/charts` |
 
 ## Columns
 
@@ -68,9 +65,9 @@ Left to right, no row index:
 
 | Time | Tweet | Category | Source |
 | --- | --- | --- | --- |
-| `HH:MM` if today (Israel), else `MM/DD` | One-line summary only. No tickers/themes here. | Ticker **or** theme. Company → US style `:NVDA US` (TSMC → `:TSM US`, Cloudflare → `:NET US`). Else one chip: `:AI` `:ROBOTICS` `:SPACE` `:CYBER` `:CHIPS` `:MACRO` | X display name (`SemiAnalysis`) |
+| `HH:MM` if today (Israel), else `MM/DD` | One-line summary only. No tickers/themes here. | Ticker **or** theme. | X display name or Substack publication name |
 
-Yellow text = top items. Hover/click a row for full original text, clickable `x.com` permalink, and that tweet’s own media. No invented photos of people.
+Yellow text = top items. Hover/click a row for full original text, permalink, and that item’s own media.
 
 Keyboard: `J` / `K` or arrows move; `Enter` opens the permalink.
 
@@ -82,8 +79,9 @@ Keyword · handle/source · ticker (aliases: TSMC→TSM, Cloudflare→NET) · to
 
 - `data/universe.csv` — close-watch extract from Glilot `Companies_Universe.xlsx`
 - `data/tweets.json` — 42 triaged seed items (relative offsets so Today/24h/7d stay populated)
-- `data/handles.json` — high-signal X usernames for the off-Vercel worker
-- `data/live.json` — optional live feed (written by ingest when the key is set)
+- `data/handles.json` — high-signal X usernames
+- `data/substacks.json` — high-signal Substack RSS urls
+- `data/live.json` — optional mixed live feed (written by ingest)
 - `static/charts/*.svg` — Bloomberg-style **seed** charts only (never attached to live ids)
 
 ## Vercel

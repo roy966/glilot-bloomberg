@@ -121,7 +121,7 @@ test("collectTweetMedia keeps quoted CDN urls and never seed SVGs", () => {
 test("query batches stay under length caps and put since_time in query", () => {
   const handles = JSON.parse(dataFile("handles.json")).handles.map((h) => h.userName);
   const batches = packBatches(handles, 1715817600);
-  assert.ok(batches.length >= 2);
+  assert.ok(batches.length >= 1);
   for (const b of batches) {
     assert.ok(b.accountPart.length <= ACCOUNT_LIST_MAX);
     assert.ok(b.query.length <= FULL_QUERY_MAX);
@@ -136,7 +136,7 @@ test("query batches stay under length caps and put since_time in query", () => {
 });
 
 test("ingest no-ops when key unset (seed fallback)", async () => {
-  const r = await runIngest({ env: {}, writeFiles: false });
+  const r = await runIngest({ env: {}, writeFiles: false, skipSubstack: true });
   assert.equal(r.skipped, "no_key");
   assert.equal(r.ok, true);
 });
@@ -153,6 +153,7 @@ test("ingest DROPs when permalink cannot be verified", async () => {
   const r = await runIngest({
     env: { TWITTERAPI_IO_KEY: "test" },
     writeFiles: false,
+    skipSubstack: true,
     fetchImpl,
     search: async () => ({ tweets: [tweet], has_next_page: false, next_cursor: "" }),
     byIds: async () => [],
@@ -187,6 +188,7 @@ test("ingest KEEP verified high-signal numbered tweet with empty media", async (
   const r = await runIngest({
     env: { TWITTERAPI_IO_KEY: "test" },
     writeFiles: false,
+    skipSubstack: true,
     fetchImpl,
     search: async () => ({ tweets: [tweet], has_next_page: false, next_cursor: "" }),
     byIds: async () => [tweet],

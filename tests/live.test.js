@@ -57,7 +57,7 @@ test("seed charts mixed with live ids are rejected", () => {
   );
 });
 
-test("non-tweet CDN https is not live media", () => {
+test("non-tweet CDN https is not live media for X rows", () => {
   assert.equal(
     isLiveRow({ ...okRow, media: ["https://example.com/chart.png"] }),
     false,
@@ -73,4 +73,35 @@ test("empty or malformed live.json falls through", () => {
   assert.equal(isWellFormedLiveFeed([missingTime]), false);
   assert.equal(isLiveRow({ ...okRow, top: "true" }), false);
   assert.equal(isLiveRow({ ...okRow, id: "t001" }), false);
+});
+
+const ssRow = {
+  id: "semianalysis.com:xais-colossus-2-first-gigawatt-datacenter",
+  time: "2026-09-02T09:40:00.000Z",
+  summary: "xAI Colossus 2 is the first gigawatt AI datacenter; Colossus 1 still ~300 MW.",
+  full_text:
+    "Colossus 1’s ~300 MW looks modest next to gigawatt-scale clusters. NVIDIA GB200 NVL72 counts and 200,000 H100s are the print.",
+  handle: "semianalysis",
+  source: "SemiAnalysis",
+  category: ":NVDA US",
+  permalink: "https://semianalysis.com/2025/09/16/xais-colossus-2-first-gigawatt-datacenter/",
+  media: ["https://substackcdn.com/image/fetch/photo.png"],
+  top: true,
+  kind: "substack",
+};
+
+test("substack rows accept slug ids and non-x.com permalinks", () => {
+  assert.equal(isLiveRow(ssRow), true);
+  assert.equal(
+    isLiveRow({ ...ssRow, permalink: "https://x.com/SemiAnalysis_/status/1" }),
+    false,
+  );
+  assert.equal(
+    isLiveRow({ ...ssRow, media: ["static/charts/gpu-rack-kw.svg"] }),
+    false,
+  );
+});
+
+test("mixed X + Substack live.json is well-formed", () => {
+  assert.equal(isWellFormedLiveFeed([okRow, ssRow]), true);
 });

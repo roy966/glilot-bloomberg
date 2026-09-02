@@ -11,14 +11,44 @@ const REQUIRED = [
   "top",
 ];
 
-/** Live hover media: this tweet's CDN URLs only. Never seed SVGs /charts/. */
+export function rowKind(row) {
+  return row?.kind === "substack" ? "substack" : "x";
+}
+
+/** Live hover media for X: tweet CDN only. Never seed SVGs /charts/. */
 export function isTweetCdnMedia(u) {
   if (typeof u !== "string" || !/^https:\/\//i.test(u)) return false;
   if (/static\/charts|\/charts\//i.test(u)) return false;
   return /pbs\.twimg\.com|video\.twimg\.com|ton\.twitter\.com/i.test(u);
 }
 
+/** Live hover media for Substack: that post’s https images. Never seed SVGs. */
+export function isSubstackMedia(u) {
+  if (typeof u !== "string" || !/^https:\/\//i.test(u)) return false;
+  if (/static\/charts|\/charts\//i.test(u)) return false;
+  let host = "";
+  try {
+    host = new URL(u).hostname.toLowerCase();
+  } catch {
+    return false;
+  }
+  if (/substackcdn\.com$|\.substack\.com$|substack-post-media\.s3\.amazonaws\.com$|\.wp\.com$/i.test(host)) {
+    return true;
+  }
+  return /\.(png|jpe?g|gif|webp)(?:$|\?)/i.test(u);
+}
+
+export function isLiveMediaUrl(u, kind) {
+  return kind === "substack" ? isSubstackMedia(u) : isTweetCdnMedia(u);
+}
+
 export function permalinkMatches(row) {
+  const kind = rowKind(row);
+  if (kind === "substack") return substackPermalinkOk(row);
+  return xPermalinkOk(row);
+}
+
+function xPermalinkOk(row) {
   const id = String(row?.id ?? "");
   const handle = String(row?.handle ?? "").replace(/^@/, "");
   const permalink = String(row?.permalink ?? "");
@@ -38,9 +68,27 @@ export function permalinkMatches(row) {
   return parts[0].toLowerCase() === handle.toLowerCase();
 }
 
-export function mediaUrlsOk(media) {
+export function substackPermalinkOk(row) {
+  const id = String(row?.id ?? "").trim();
+  const permalink = String(row?.permalink ?? "").trim();
+  if (!id || !permalink) return false;
+  let url;
+  try {
+    url = new URL(permalink);
+  } catch {
+    return false;
+  }
+  if (url.protocol !== "https:") return false;
+  if (url.hostname === "x.com" || url.hostname === "twitter.com") return false;
+  const slug = id.includes(":") ? id.slice(id.lastIndexOf(":") + 1) : id;
+  if (!slug || slug.length < 2) return false;
+  const hay = `${url.pathname}${url.search} ${permalink}`;
+  return hay.toLowerCase().includes(String(slug).toLowerCase());
+}
+
+export function mediaUrlsOk(media, kind = "x") {
   if (!Array.isArray(media)) return false;
-  return media.every((u) => isTweetCdnMedia(u));
+  return media.every((u) => isLiveMediaUrl(u, kind));
 }
 
 export function mixesSeedCharts(row) {
@@ -54,7 +102,10 @@ export function isLiveRow(row) {
   for (const k of REQUIRED) {
     if (!(k in row)) return false;
   }
-  if (typeof row.id !== "string" || !/^\d+$/.test(row.id)) return false;
+  const kind = rowKind(row);
+  if (row.kind != null && row.kind !== "x" && row.kind !== "substack") return false;
+  if (typeof row.id !== "string" || !row.id.trim()) return false;
+  if (kind === "x" && !/^\d+$/.test(row.id)) return false;
   if (typeof row.time !== "string" || Number.isNaN(new Date(row.time).getTime())) return false;
   if (typeof row.summary !== "string" || !row.summary.trim()) return false;
   if (typeof row.full_text !== "string" || !row.full_text.trim()) return false;
@@ -64,7 +115,7 @@ export function isLiveRow(row) {
   if (typeof row.top !== "boolean") return false;
   if (!permalinkMatches(row)) return false;
   if (mixesSeedCharts(row)) return false;
-  if (!mediaUrlsOk(row.media)) return false;
+  if (!mediaUrlsOk(row.media, kind)) return false;
   return true;
 }
 

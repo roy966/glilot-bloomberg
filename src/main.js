@@ -1,5 +1,5 @@
 import "./style.css";
-import { isWellFormedLiveFeed, isTweetCdnMedia } from "./live.js";
+import { isWellFormedLiveFeed, isLiveMediaUrl } from "./live.js";
 
 const TZ = "Asia/Jerusalem";
 const SECTORS = [
@@ -157,9 +157,9 @@ function parseTs(t, now) {
   return new Date(now.getTime() - Number(t.offset_minutes || 0) * 60 * 1000);
 }
 
-function rewriteMedia(p, source) {
+function rewriteMedia(p, source, kind) {
   const s = String(p || "");
-  if (source === "live") return isTweetCdnMedia(s) ? s : "";
+  if (source === "live") return isLiveMediaUrl(s, kind || "x") ? s : "";
   if (/^https?:\/\//i.test(s)) return s;
   return "/" + s.replace(/^static\//, "");
 }
@@ -167,7 +167,7 @@ function rewriteMedia(p, source) {
 function materialize(raw, now, source) {
   return raw
     .map((t) => {
-      const media = (t.media || []).map((p) => rewriteMedia(p, source)).filter(Boolean);
+      const media = (t.media || []).map((p) => rewriteMedia(p, source, t.kind)).filter(Boolean);
       const tickers = t.tickers || [];
       return {
         ...t,
