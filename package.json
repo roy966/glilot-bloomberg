@@ -1,0 +1,16 @@
+{
+  "name": "glilot-bloomberg",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/sync-public.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/sync-public.mjs",
+    "build": "vite build",
+    "preview": "vite preview --host"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}

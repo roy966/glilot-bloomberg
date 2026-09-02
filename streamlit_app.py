@@ -1,6 +1,7 @@
-"""Glilot Bloomberg — Streamlit X/Twitter news portal.
+"""Glilot Bloomberg — optional Streamlit entry (not used by Vercel).
 
-Seed-only. No Twitter/X API keys. Root app.py for Streamlit Community Cloud.
+Vercel deploys the Vite app at repo root. Run locally with:
+  streamlit run streamlit_app.py
 """
 
 from __future__ import annotations
