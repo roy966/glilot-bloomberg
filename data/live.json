@@ -1,5 +1,431 @@
 [
   {
+    "id": "2095301537316929910",
+    "time": "2026-09-03T00:03:09.000Z",
+    "summary": "Hot Chips 2026 starter pack",
+    "full_text": "Hot Chips 2026 starter pack https://t.co/7i9qNAWX1c",
+    "handle": "jasonschips",
+    "source": "Jason's Chips",
+    "category": ":AI",
+    "permalink": "https://x.com/jasonschips/status/2095301537316929910",
+    "media": [
+      "https://pbs.twimg.com/media/HRQAOMaa0AArGUs.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": true
+  },
+  {
+    "id": "2095285648295133606",
+    "time": "2026-09-02T23:00:01.000Z",
+    "summary": "@lithos_graphein",
+    "full_text": "@lithos_graphein https://t.co/iMA1Zi1siQ",
+    "handle": "insane_analyst",
+    "source": "Irrational Analysis",
+    "category": ":INTC US",
+    "permalink": "https://x.com/insane_analyst/status/2095285648295133606",
+    "media": [
+      "https://pbs.twimg.com/media/HRPzMVBasAAWeuA.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [
+      "INTC"
+    ],
+    "themes": [
+      "CHIPS"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095282460619636790",
+    "time": "2026-09-02T22:47:21.000Z",
+    "summary": "CEO Hock Tan is confident they will ship $350 billion of AI semiconductors combined across fiscal 2027 ($115 billion) and fiscal 2028 ($230 billion) to these customers, regardle…",
+    "full_text": "$AVGO CEO Hock Tan is confident they will ship $350 billion of AI semiconductors combined across fiscal 2027 ($115 billion) and fiscal 2028 ($230 billion) to these customers, regardless of exactly how many gigawatts get fully deployed. He also notes their XPUs perform as well or better than alternatives for customer LLM workloads while costing less than half as much.",
+    "handle": "AlphaSenseInc",
+    "source": "AlphaSense",
+    "category": ":AVGO US",
+    "permalink": "https://x.com/AlphaSenseInc/status/2095282460619636790",
+    "media": [
+      "https://pbs.twimg.com/media/HRPwR_CWMAESxBe.png"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AVGO"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095279546270716030",
+    "time": "2026-09-02T22:35:46.000Z",
+    "summary": "@307Fool Ah Snowflake.",
+    "full_text": "@307Fool Ah Snowflake. The peak 2021 IPO FOMO stock. I had to buy some on day one just because I wanted bragging rights. Sridhar Ramaswamy, a Google alum is leading the company in the right direction since Feb 2024.",
+    "handle": "ProShopGuyMF1",
+    "source": "ProShopGuyMF (Mike McMahon)",
+    "category": ":SNOW US",
+    "permalink": "https://x.com/ProShopGuyMF1/status/2095279546270716030",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "SNOW",
+      "GOOGL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095279003468796256",
+    "time": "2026-09-02T22:33:37.000Z",
+    "summary": "The companies that solve AI economics — not just AI capability — will capture the next phase.",
+    "full_text": "The companies that solve AI economics — not just AI capability — will capture the next phase.\n\nFull analysis:\n\nhttps://t.co/bCNRDgQ7Vd\n\n#AI",
+    "handle": "fourweekmba",
+    "source": "Gennaro",
+    "category": ":AI",
+    "permalink": "https://x.com/fourweekmba/status/2095279003468796256",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095278980194500831",
+    "time": "2026-09-02T22:33:31.000Z",
+    "summary": "GitHub Copilot just switched to token billing.",
+    "full_text": "GitHub Copilot just switched to token billing.\n\nDeveloper bills jumped from $29/month to $750.\n\nThis is the canary. Every flat-rate AI subscription will face the same transition as power users consume 10-100x more compute than casual users.",
+    "handle": "fourweekmba",
+    "source": "Gennaro",
+    "category": ":AI",
+    "permalink": "https://x.com/fourweekmba/status/2095278980194500831",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095278948431143338",
+    "time": "2026-09-02T22:33:24.000Z",
+    "summary": "For a $500M revenue company, that's 2-4% of topline on AI.",
+    "full_text": "For a $500M revenue company, that's 2-4% of topline on AI.\n\nFor the math to work, AI must either:\n→ Cut headcount by $19M+ (politically difficult)\n→ Increase revenue by $19M+ (hard to attribute)\n→ Improve decisions in unmeasurable ways",
+    "handle": "fourweekmba",
+    "source": "Gennaro",
+    "category": ":AI",
+    "permalink": "https://x.com/fourweekmba/status/2095278948431143338",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095278916839612699",
+    "time": "2026-09-02T22:33:16.000Z",
+    "summary": "The cost stack: → Inference compute: $1-3M/yr → Seat licenses (Copilot, ChatGPT Enterprise): $1.8M/yr → Cloud commitments: $2-5M/yr → Custom deployment (FDEs): $2-5M/yr → Intern…",
+    "full_text": "The cost stack:\n\n→ Inference compute: $1-3M/yr\n→ Seat licenses (Copilot, ChatGPT Enterprise): $1.8M/yr\n→ Cloud commitments: $2-5M/yr\n→ Custom deployment (FDEs): $2-5M/yr\n→ Internal AI team (10 engineers): $2-3M/yr\n\nTotal: $9-19M annually.",
+    "handle": "fourweekmba",
+    "source": "Gennaro",
+    "category": ":AI",
+    "permalink": "https://x.com/fourweekmba/status/2095278916839612699",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095278872778461613",
+    "time": "2026-09-02T22:33:06.000Z",
+    "summary": "Enterprise AI costs $9-19M/year for a mid-market company.",
+    "full_text": "Enterprise AI costs $9-19M/year for a mid-market company.\n\nAnd nobody can prove the ROI.\n\n🧵",
+    "handle": "fourweekmba",
+    "source": "Gennaro",
+    "category": ":AI",
+    "permalink": "https://x.com/fourweekmba/status/2095278872778461613",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095277901705101603",
+    "time": "2026-09-02T22:29:14.000Z",
+    "summary": "@altcap @bgurley @noahrshinn Thanks for July 10 2025 Michael Dell interview.",
+    "full_text": "@altcap @bgurley @noahrshinn Thanks for July 10 2025 Michael Dell interview. I bought a position and it is up from $123 to $492.\nSome my best positions have come from listening to podcast interviews of CEOs.\nOf course, I have listened to every Jensen Huang interview with a 30% position in Nvidia.",
+    "handle": "ProShopGuyMF1",
+    "source": "ProShopGuyMF (Mike McMahon)",
+    "category": ":NVDA US",
+    "permalink": "https://x.com/ProShopGuyMF1/status/2095277901705101603",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NVDA",
+      "DELL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095277833434415283",
+    "time": "2026-09-02T22:28:58.000Z",
+    "summary": "Dropped all the way to the 50% pullback post earnings and now looking at potentially filling gap and going to standard 61Fib pullback towards $130 Market darling is worth a clos…",
+    "full_text": "$CRDO Dropped all the way to the 50% pullback post earnings and now looking at potentially filling gap and going to standard 61Fib pullback towards $130\nMarket darling is worth a closer look at these levels 🔎 https://t.co/lkoTKO6dGF",
+    "handle": "tempocap2",
+    "source": "TommyJR",
+    "category": ":CRDO US",
+    "permalink": "https://x.com/tempocap2/status/2095277833434415283",
+    "media": [
+      "https://pbs.twimg.com/media/HRPsFSYbkAEqm7h.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "CRDO"
+    ],
+    "themes": [],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095272904158073229",
+    "time": "2026-09-02T22:09:23.000Z",
+    "summary": "can benefit from a model race that nobody wins for long.",
+    "full_text": "$IREN can benefit from a model race that nobody wins for long.\n\nThat's my takeaway from Jim's convergence point. A lab catching up becomes another potential buyer of compute. IREN already serves Fireworks and Together, without needing to own the winning model.\n\nStaying neutral lets it sell capacity across that rivalry. If several credible buyers need the same delivery window, IREN gets more choice over pricing, prepayments and contract length.\n\nThe opportunity is to turn competition between models into bargaining power for the infrastructure beneath them. The proof will be better terms on new capacity.",
+    "handle": "pepe_maltese",
+    "source": "Pepe Maltese",
+    "category": ":IREN US",
+    "permalink": "https://x.com/pepe_maltese/status/2095272904158073229",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "CRWV",
+      "NBIS",
+      "TSM",
+      "NVDA"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW",
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095272072704655648",
+    "time": "2026-09-02T22:06:05.000Z",
+    "summary": "CEO Antonio Neri says networking demand remains strong with record-breaking orders of $700 million this quarter for routers and data center switches, expected to reach $2.5 to $…",
+    "full_text": "$HPE CEO Antonio Neri says networking demand remains strong with record-breaking orders of $700 million this quarter for routers and data center switches, expected to reach $2.5 to $3 billion for the year, while their fiscal 2027 guide does not yet include the AMD Helios opportunity ramping toward the end of this calendar year. Enterprise has hit an inflection point driven by agentic AI and AI inferencing adoption, with the company itself running more than 1,200 use cases, 300-plus in production. He says the growing number of on-premise tokens and pipeline conversion give them confidence in the durability of demand behind their guidance.",
+    "handle": "AlphaSenseInc",
+    "source": "AlphaSense",
+    "category": ":AMD US",
+    "permalink": "https://x.com/AlphaSenseInc/status/2095272072704655648",
+    "media": [
+      "https://pbs.twimg.com/media/HRPm15gaoAALDlp.png"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AMD"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095268758206247387",
+    "time": "2026-09-02T21:52:54.000Z",
+    "summary": "Nice response after relative strength the day before and the $35s region held well so far Now for more of a challenge as the declining 21ema and 50d are just above and then we h…",
+    "full_text": "$IREN Nice response after relative strength the day before and the $35s region held well so far\n\nNow for more of a challenge as the declining 21ema and 50d are just above and then we have the 2 key levels in the low to mid 40s that need to be cleared for any sustainable rally https://t.co/3yLyPjxMJT",
+    "handle": "tempocap2",
+    "source": "TommyJR",
+    "category": ":IREN US",
+    "permalink": "https://x.com/tempocap2/status/2095268758206247387",
+    "media": [
+      "https://pbs.twimg.com/media/HRPj08LbIAArrQd.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [
+      "IREN"
+    ],
+    "themes": [],
+    "sectors": [
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095265006522966038",
+    "time": "2026-09-02T21:38:00.000Z",
+    "summary": "reaches its most consequential financing phase in fiscal 2027, when the AI build demands $40 billion of external capital in a single year.",
+    "full_text": "$ORCL reaches its most consequential financing phase in fiscal 2027, when the AI build demands $40 billion of external capital in a single year.\n\nThat funding comes through a mix of debt and equity, followed by another $38.3 billion in fiscal 2028 before external financing falls sharply as infrastructure begins generating more cash.\n\nFunded debt peaks near $155 billion in fiscal 2029, while interest expense reaches $9.6 billion, putting the terms of those earlier raises directly into the path of future shareholder returns.\n\nThe encouraging part is the eventual deleveraging, with funded debt falling to $127.7 billion by fiscal 2030 as free cash flow improves and the need for external capital fades.",
+    "handle": "InvestNorthwise",
+    "source": "Northwise Project",
+    "category": ":ORCL US",
+    "permalink": "https://x.com/InvestNorthwise/status/2095265006522966038",
+    "media": [
+      "https://pbs.twimg.com/media/HPOjIMgXkAAUPga.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "ORCL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095264017220526221",
+    "time": "2026-09-02T21:34:04.000Z",
+    "summary": "@kejca @edzitron",
+    "full_text": "@kejca @edzitron",
+    "handle": "TidefallCapital",
+    "source": "Trevor Scott",
+    "category": ":GOOGL US",
+    "permalink": "https://x.com/TidefallCapital/status/2095264017220526221",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "GOOGL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095259332828946742",
+    "time": "2026-09-02T21:15:27.000Z",
+    "summary": "Snowflake Q2 FY27: The Beat-and-Raise That the Market Bought — and What MongoDB's Didn't Have #AI",
+    "full_text": "Snowflake Q2 FY27: The Beat-and-Raise That the Market Bought — and What MongoDB's Didn't Have\n\nhttps://t.co/I9oltlNQed\n\n#AI https://t.co/Q8jFl3qDQO",
+    "handle": "fourweekmba",
+    "source": "Gennaro",
+    "category": ":SNOW US",
+    "permalink": "https://x.com/fourweekmba/status/2095259332828946742",
+    "media": [
+      "https://pbs.twimg.com/media/HRPbQm9bcAAwLEK.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [
+      "SNOW",
+      "MDB"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related",
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095257989322039430",
+    "time": "2026-09-02T21:10:07.000Z",
+    "summary": "AI is a Supercycle.",
+    "full_text": "AI is a Supercycle. As suck, it takes 30-50 years to mature",
+    "handle": "fourweekmba",
+    "source": "Gennaro",
+    "category": ":AI",
+    "permalink": "https://x.com/fourweekmba/status/2095257989322039430",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
     "id": "2095120375273160806",
     "time": "2026-09-02T12:03:17.000Z",
     "summary": "@aleabitoreddit Right but this entire portfolio got liquidated at a discount in July so in retrospect it was a horrible portfolio regardless of if he was targeted",
