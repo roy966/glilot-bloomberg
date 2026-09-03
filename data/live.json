@@ -1,5 +1,32 @@
 [
   {
+    "id": "2095330267938332932",
+    "time": "2026-09-03T01:57:19.000Z",
+    "summary": "@g2ai_g2ai 👍",
+    "full_text": "@g2ai_g2ai 👍",
+    "handle": "pequityresearch",
+    "source": "P Equity Research 📰",
+    "category": ":AVGO US",
+    "permalink": "https://x.com/pequityresearch/status/2095330267938332932",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AVGO",
+      "GOOGL"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW",
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095328503625634132",
     "time": "2026-09-03T01:50:19.000Z",
     "summary": "Memory went from 52% of AI chip component cost in Q1 2024 to 63% in Q4 2025, so the memory day at Hot Chips was 5 companies presenting 5 ways to need less of it, each built arou…",
@@ -503,6 +530,32 @@
     "has_media": true
   },
   {
+    "id": "2095301257564958922",
+    "time": "2026-09-03T00:02:03.000Z",
+    "summary": "Just 5 months ago: Snowflake was $110 (now it’s $380) Palo Alto was $134 (now $338) Salesforce was $152 (now $256) I told you to buy, but your salary didn’t change.",
+    "full_text": "Just 5 months ago:\n\n$SNOW Snowflake was $110\n(now it’s $380)\n\n$PANW Palo Alto was $134\n(now $338)\n\n$CRM Salesforce was $152\n(now $256)\n\nI told you to buy, but your salary didn’t change.",
+    "handle": "AnessHusseinAli",
+    "source": "StocksToBuyNow.ai",
+    "category": ":SNOW US",
+    "permalink": "https://x.com/AnessHusseinAli/status/2095301257564958922",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "SNOW",
+      "PANW",
+      "CRM"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related",
+      "Pure Cyber",
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095300692298907678",
     "time": "2026-09-02T23:59:48.000Z",
     "summary": "‘고점 대비 20% 하락하면 약세장.’ AI 시대의 고베타 자산에는 이 공식이 점점 잘 맞지 않는다.",
@@ -574,6 +627,31 @@
     ],
     "in_universe": true,
     "has_media": true
+  },
+  {
+    "id": "2095299191782142234",
+    "time": "2026-09-02T23:53:50.000Z",
+    "summary": "@ViralMuzik1989 And $hut got delayed",
+    "full_text": "@ViralMuzik1989 And $hut got delayed https://t.co/9YKfeovFHP",
+    "handle": "pred3500",
+    "source": "Miner Reddy",
+    "category": ":HUT US",
+    "permalink": "https://x.com/pred3500/status/2095299191782142234",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "HUT",
+      "IREN"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": false
   },
   {
     "id": "2095299023833862445",
@@ -648,6 +726,31 @@
     "has_media": false
   },
   {
+    "id": "2095296395104207018",
+    "time": "2026-09-02T23:42:43.000Z",
+    "summary": "@Yd__Te And shit got delayed",
+    "full_text": "@Yd__Te And shit $HUT got delayed https://t.co/9YKfeovFHP",
+    "handle": "pred3500",
+    "source": "Miner Reddy",
+    "category": ":HUT US",
+    "permalink": "https://x.com/pred3500/status/2095296395104207018",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "HUT",
+      "IREN"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095296218687840303",
     "time": "2026-09-02T23:42:01.000Z",
     "summary": "Broadcom의 AI칩 매출은 3분기 167억 달러로 3배 이상 증가했다.",
@@ -671,6 +774,29 @@
     "sectors": [
       "Semis & HW",
       "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095294820679856284",
+    "time": "2026-09-02T23:36:28.000Z",
+    "summary": "Just 2 years ago: Nvidia was $92 (now it’s $232) Micron was $45 (now it’s $956) Sandisk was $36 (now it’s $1,553) Told you to buy, and it’s published on Reuters they did the bac…",
+    "full_text": "Just 2 years ago:\n\n$NVDA Nvidia was $92\n(now it’s $232)\n\n$MU Micron was $45\n(now it’s $956)\n\n$SNDK Sandisk was $36\n(now it’s $1,553)\n\nTold you to buy, and it’s published on Reuters they did the background check, but you didn’t know me, don’t worry it’s not too late to triple your salary 🚀",
+    "handle": "AnessHusseinAli",
+    "source": "StocksToBuyNow.ai",
+    "category": ":NVDA US",
+    "permalink": "https://x.com/AnessHusseinAli/status/2095294820679856284",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NVDA",
+      "MU"
+    ],
+    "themes": [],
+    "sectors": [
+      "Semis & HW"
     ],
     "in_universe": true,
     "has_media": false
