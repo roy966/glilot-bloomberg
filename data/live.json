@@ -1,5 +1,30 @@
 [
   {
+    "id": "2095309291075108915",
+    "time": "2026-09-03T00:33:58.000Z",
+    "summary": "My full Hot Chips 2026 report is out.",
+    "full_text": "My full Hot Chips 2026 report is out. 3 days at Stanford, 23 presentations, reorganized by theme instead of by day: memory, CPUs, GPU racks, networking, and the custom silicon from Google, OpenAI, Cerebras and SambaNova.\n\nMemory is now something like 70% of the cost of an AI rack, and every presenter was designing around that number.\n\n8,000+ words. Each talk gets what was argued, the technical content behind it, and the implications at the end of each theme.",
+    "handle": "jasonschips",
+    "source": "Jason's Chips",
+    "category": ":GOOGL US",
+    "permalink": "https://x.com/jasonschips/status/2095309291075108915",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "GOOGL"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095307710334156939",
     "time": "2026-09-03T00:27:41.000Z",
     "summary": "@Mono_Invest To be fair a P/S of 20x might make more sense by then",
@@ -172,6 +197,33 @@
     ],
     "in_universe": true,
     "has_media": false
+  },
+  {
+    "id": "2095302374906642668",
+    "time": "2026-09-03T00:06:29.000Z",
+    "summary": "Get in the token path and you win.",
+    "full_text": "Get in the token path and you win. \n\nStill a rental for me, but happy $SNOW shareholder \n\nAI becomes more capable and cheaper -&gt; Companies run more AI workloads -&gt; more data gets generated and more queries are run = ❄️ revenue 📈",
+    "handle": "OwlWealthy",
+    "source": "TheWealthyOwl",
+    "category": ":SNOW US",
+    "permalink": "https://x.com/OwlWealthy/status/2095302374906642668",
+    "media": [
+      "https://pbs.twimg.com/media/HRPLf8oaEAA9cki.png"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "SNOW",
+      "NET"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
   },
   {
     "id": "2095301537316929910",
@@ -372,6 +424,30 @@
     "has_media": true
   },
   {
+    "id": "2095281097563374029",
+    "time": "2026-09-02T22:41:56.000Z",
+    "summary": "Cerebras jumped 6.91% today, finally climbing back up toward its IPO baseline $185.",
+    "full_text": "Cerebras jumped 6.91% today, finally climbing back up toward its IPO baseline $185. \n\nThe initial hype cooled off, but the underlying wafer-scale AI acceleration thesis hasn’t changed. \n\nIs this the real reset and second leg of growth, or just another breather?\n\nWhat’s your take? \n🚀 $CBRS",
+    "handle": "SVTrivo",
+    "source": "Papa Johns",
+    "category": ":CHIPS",
+    "permalink": "https://x.com/SVTrivo/status/2095281097563374029",
+    "media": [
+      "https://pbs.twimg.com/media/HRPvDFebcAA0z_F.jpg",
+      "https://pbs.twimg.com/media/HRPvDYpakAAS_wr.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": true
+  },
+  {
     "id": "2095279546270716030",
     "time": "2026-09-02T22:35:46.000Z",
     "summary": "@307Fool Ah Snowflake.",
@@ -545,6 +621,33 @@
     "has_media": false
   },
   {
+    "id": "2095278579454263315",
+    "time": "2026-09-02T22:31:56.000Z",
+    "summary": "+15.8% today.",
+    "full_text": "$DELL +15.8% today.\nCheck my post, https://t.co/t8fQQWWFNV\n\n#DELL #AI https://t.co/hX6ACY55zd",
+    "handle": "SVTrivo",
+    "source": "Papa Johns",
+    "category": ":DELL US",
+    "permalink": "https://x.com/SVTrivo/status/2095278579454263315",
+    "media": [
+      "https://pbs.twimg.com/media/HRPswnwbMAEMtrm.jpg",
+      "https://pbs.twimg.com/media/HRPsw4OagAAaLod.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "DELL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
     "id": "2095277901705101603",
     "time": "2026-09-02T22:29:14.000Z",
     "summary": "@altcap @bgurley @noahrshinn Thanks for July 10 2025 Michael Dell interview.",
@@ -674,6 +777,30 @@
     "has_media": true
   },
   {
+    "id": "2095270829823332364",
+    "time": "2026-09-02T22:01:08.000Z",
+    "summary": "@altcap 2021 was arguably too high.",
+    "full_text": "@altcap 2021 was arguably too high. Hype so not a good reference.",
+    "handle": "xEBITDA",
+    "source": "Dan Druckenmiller",
+    "category": ":SNOW US",
+    "permalink": "https://x.com/xEBITDA/status/2095270829823332364",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "SNOW"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095268758206247387",
     "time": "2026-09-02T21:52:54.000Z",
     "summary": "Nice response after relative strength the day before and the $35s region held well so far Now for more of a challenge as the declining 21ema and 50d are just above and then we h…",
@@ -770,6 +897,31 @@
     "sectors": [],
     "in_universe": false,
     "has_media": false
+  },
+  {
+    "id": "2095265273670439273",
+    "time": "2026-09-02T21:39:04.000Z",
+    "summary": "וככה קיבלנו",
+    "full_text": "וככה קיבלנו https://t.co/75BJyc573C",
+    "handle": "compound_il",
+    "source": "yanay",
+    "category": ":SNOW US",
+    "permalink": "https://x.com/compound_il/status/2095265273670439273",
+    "media": [
+      "https://pbs.twimg.com/media/HRPgqO0aoAAIrvi.jpg",
+      "https://pbs.twimg.com/media/HOaqCQtWwAASOSx.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [
+      "SNOW"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
   },
   {
     "id": "2095265006522966038",
