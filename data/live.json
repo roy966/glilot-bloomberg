@@ -1,5 +1,27 @@
 [
   {
+    "id": "2095307710334156939",
+    "time": "2026-09-03T00:27:41.000Z",
+    "summary": "@Mono_Invest To be fair a P/S of 20x might make more sense by then",
+    "full_text": "@Mono_Invest To be fair a P/S of 20x might make more sense by then",
+    "handle": "SohoNehel",
+    "source": "Adrian Soweski 🦛",
+    "category": ":NBIS US",
+    "permalink": "https://x.com/SohoNehel/status/2095307710334156939",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NBIS"
+    ],
+    "themes": [],
+    "sectors": [
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095306821971910718",
     "time": "2026-09-03T00:24:09.000Z",
     "summary": "UBS does not see China achieving an EUV tool within the next 10 years.",
@@ -255,6 +277,26 @@
     "has_media": false
   },
   {
+    "id": "2095288001127444839",
+    "time": "2026-09-02T23:09:22.000Z",
+    "summary": "@wilburforce_ Just one of my hedge fund clients covers my inference cost many times over.",
+    "full_text": "@wilburforce_ Just one of my hedge fund clients covers my inference cost many times over. What’s your point again? That I’m more productive than you by an embarrassing factor?",
+    "handle": "doodlestein",
+    "source": "Jeffrey Emanuel",
+    "category": ":AI",
+    "permalink": "https://x.com/doodlestein/status/2095288001127444839",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
     "id": "2095285648295133606",
     "time": "2026-09-02T23:00:01.000Z",
     "summary": "@lithos_graphein",
@@ -307,6 +349,29 @@
     "has_media": true
   },
   {
+    "id": "2095281830266278253",
+    "time": "2026-09-02T22:44:51.000Z",
+    "summary": "AT DEEP ROBOTICS HQ IN HANGZHOU They have +500 people in a few floors in a regular office park.",
+    "full_text": "AT DEEP ROBOTICS HQ IN HANGZHOU\n\nThey have +500 people in a few floors in a regular office park.\n\nThey test the robots in the parking lot,\n\nAnd in the grass next to the river behind the office. \n\nGreat business.\n\nAnd I like use cases for industrial grade robots. \n\nTheir industrial quadrupeds are rated for -20 to 50 deg Celsius \n\nAnd can go 1m under water for 30 minutes. \n\nDEEP is now Expanding into humanoids.\n\nHere’s the D2",
+    "handle": "JeffreyTowson",
+    "source": "Jeffrey Towson 陶迅",
+    "category": ":ROBOTICS",
+    "permalink": "https://x.com/JeffreyTowson/status/2095281830266278253",
+    "media": [
+      "https://pbs.twimg.com/amplify_video_thumb/2095281469904359424/img/9Slckw7MmK_xQruq.jpg",
+      "https://video.twimg.com/amplify_video/2095281469904359424/vid/avc1/1080x1528/X5r71X80fI7klR-v.mp4?tag=29"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "ROBOTICS"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": true
+  },
+  {
     "id": "2095279546270716030",
     "time": "2026-09-02T22:35:46.000Z",
     "summary": "@307Fool Ah Snowflake.",
@@ -349,6 +414,28 @@
     ],
     "sectors": [],
     "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095278990743294070",
+    "time": "2026-09-02T22:33:34.000Z",
+    "summary": "@LovedropV @AlexisWrem1747 LoveDrop getting active 👀👀",
+    "full_text": "@LovedropV @AlexisWrem1747 LoveDrop getting active 👀👀",
+    "handle": "TheStockerMan",
+    "source": "Stocker-Man",
+    "category": ":CIFR US",
+    "permalink": "https://x.com/TheStockerMan/status/2095278990743294070",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "CIFR"
+    ],
+    "themes": [],
+    "sectors": [
+      "Horizontal SW"
+    ],
+    "in_universe": true,
     "has_media": false
   },
   {
@@ -504,6 +591,30 @@
       "Semis & HW"
     ],
     "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095275144826478660",
+    "time": "2026-09-02T22:18:17.000Z",
+    "summary": "מניית מטא עלתה רק 2% על שחרור המודל השלישי הכי למי-איכפת-לעזאזל.",
+    "full_text": "מניית מטא עלתה רק 2% על שחרור המודל השלישי הכי למי-איכפת-לעזאזל. הנונבינארי המציק שלהם עושה הקפות ניצחון בטוויטר כאילו המניה 80%+ ולא 10%- השנה. הנהלת ברודקום טוחנת כבר שעה צירופים של 3 אותיות כמו TPU ו-XPU בנסיון לדחוף את המניה למעלה אבל גם היא משותקת ומינוס 6% השנה.\n\nמה הפשט?",
+    "handle": "CapArtichoke",
+    "source": "Capital Artichoke",
+    "category": ":SPACE",
+    "permalink": "https://x.com/CapArtichoke/status/2095275144826478660",
+    "media": [
+      "https://pbs.twimg.com/media/HRPNDv3aoAA3EDU.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "SPACE",
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
     "has_media": true
   },
   {
@@ -709,6 +820,61 @@
     ],
     "in_universe": true,
     "has_media": false
+  },
+  {
+    "id": "2095264221357309973",
+    "time": "2026-09-02T21:34:53.000Z",
+    "summary": "Management’s language has become more specific and more optical-centered.",
+    "full_text": "$CRDO Management’s language has become more specific and more optical-centered. In the prior quarter, Credo guided to more than 80.00% FY27 growth; in the latest call it raised that threshold to more than 85.00% and specified that about half of the incremental growth dollars would come from optical products.",
+    "handle": "quantLR",
+    "source": "7",
+    "category": ":CRDO US",
+    "permalink": "https://x.com/quantLR/status/2095264221357309973",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "CRDO"
+    ],
+    "themes": [],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095264028247617914",
+    "time": "2026-09-02T21:34:07.000Z",
+    "summary": ": Huge Release, Muse Spark 1.3 (max) surpasses Gemini 3.8 (High), Sol-5.6 (max), Kimi K3 on benchmarks We are seeing the model layer getting increasingly tight as models converg…",
+    "full_text": "$META: Huge Release, Muse Spark 1.3 (max) surpasses Gemini 3.8 (High), Sol-5.6 (max), Kimi K3 on benchmarks\n\nWe are seeing the model layer getting increasingly tight as models converge on performance. If this continues, the every model provider will fight to buy compute capacity as that will be the differentiator at what quality they can serve real world demand outside benchmarks. \n\nThis will flatten out margins in the inference layer and accrue to the physical layer. Nvidia and some ASICs and their suppliers like TSMC will accrue the most value but anyone with the ability to bring compute online will stand to benefit. \n\nAs these models all improve and Nvidia provides more of the foundation layer, cloud software will also converge in performance which moves the bottleneck down to physical wafer, power, HBM, and other physical components. Afterall we are seeing $IREN, $CRWV, $NBIS, $SPCX all converge on 20-25m/MW for mid duration contracts and 40-50m/MW for short duration contracts.",
+    "handle": "jiahanjimliu",
+    "source": "Jim Liu",
+    "category": ":IREN US",
+    "permalink": "https://x.com/jiahanjimliu/status/2095264028247617914",
+    "media": [
+      "https://pbs.twimg.com/media/HRPNDv3aoAA3EDU.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "CRWV",
+      "NBIS",
+      "TSM",
+      "NVDA"
+    ],
+    "themes": [
+      "SPACE",
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW",
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
   },
   {
     "id": "2095264017220526221",
