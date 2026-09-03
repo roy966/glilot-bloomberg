@@ -1,5 +1,157 @@
 [
   {
+    "id": "2095306821971910718",
+    "time": "2026-09-03T00:24:09.000Z",
+    "summary": "UBS does not see China achieving an EUV tool within the next 10 years.",
+    "full_text": "UBS does not see China achieving an EUV tool within the next 10 years. With another 2-5 years on the DUV side. \n\n$ASML https://t.co/orO1tqMUyC",
+    "handle": "pequityresearch",
+    "source": "P Equity Research 📰",
+    "category": ":ASML US",
+    "permalink": "https://x.com/pequityresearch/status/2095306821971910718",
+    "media": [
+      "https://pbs.twimg.com/media/HRP2YGsWoAMy54C.png",
+      "https://pbs.twimg.com/media/HRM4jNabAAAa5Gh.jpg",
+      "https://pbs.twimg.com/media/HRM4xrNbIAAL7Uq.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [
+      "ASML"
+    ],
+    "themes": [
+      "CHIPS"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095304420368023696",
+    "time": "2026-09-03T00:14:37.000Z",
+    "summary": "Google’s Network business is vestigial",
+    "full_text": "Google’s Network business is vestigial https://t.co/KdYdJ2i61i",
+    "handle": "eric_seufert",
+    "source": "Eric Seufert",
+    "category": ":GOOGL US",
+    "permalink": "https://x.com/eric_seufert/status/2095304420368023696",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "GOOGL",
+      "NET"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095304414663688513",
+    "time": "2026-09-03T00:14:35.000Z",
+    "summary": "I used to share this chart every quarter, but I stopped because it became redundant: YouTube revenue eclipsed Network revenue in Q3 2023, and the delta between the two segments…",
+    "full_text": "I used to share this chart every quarter, but I stopped because it became redundant: YouTube revenue eclipsed Network revenue in Q3 2023, and the delta between the two segments in Q2 2026 was $3.75BN.\n\nI know it’s a controversial take in some circles, but a forced divestiture of AdX and GAM would have been a net negative outcome for the open web: https://t.co/yjiYJqMVO3",
+    "handle": "eric_seufert",
+    "source": "Eric Seufert",
+    "category": ":GOOGL US",
+    "permalink": "https://x.com/eric_seufert/status/2095304414663688513",
+    "media": [
+      "https://pbs.twimg.com/media/HRQEQiSasAAO3XE.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "GOOGL",
+      "NET"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095304405172080911",
+    "time": "2026-09-03T00:14:33.000Z",
+    "summary": "Calling AdX a “crucial” part of Google’s digital advertising business overstates its financial significance to the company.",
+    "full_text": "Calling AdX a “crucial” part of Google’s digital advertising business overstates its financial significance to the company. \n\nIn Q2, revenue in Google’s Network segment — which includes AdX and GAM — declined by 0.7% year-over-year to $7.3BN, marking its 16th consecutive quarter of year-over-year decline. Overall ad revenue grew by 14.4%: Search at 17% and YouTube at 13%. \n\nNetwork represented less than 9% of Google’s advertising revenue in the quarter. I’ve called the Network business vestigial.\n\nhttps://t.co/dS3E7wOPgm",
+    "handle": "eric_seufert",
+    "source": "Eric Seufert",
+    "category": ":GOOGL US",
+    "permalink": "https://x.com/eric_seufert/status/2095304405172080911",
+    "media": [
+      "https://pbs.twimg.com/media/HRQEQBdXAAMV3LW.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "GOOGL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095302933042651164",
+    "time": "2026-09-03T00:08:42.000Z",
+    "summary": "$ ABOUT TO EXPLODE.",
+    "full_text": "$IREN $ ABOUT TO EXPLODE. NO DILUTION GUYS. BUY ✅\n\nBlue Owl Capital Inc. (NYSE: $OWL) (“Blue Owl”), a leading alternative asset manager, today announced that funds managed by Blue Owl led a $2.4 billion compute equipment financing for $IREN Limited (NASDAQ: IREN) (“IREN”), a vertically integrated AI Cloud platform delivering data centers, compute, and software for AI training and inference. \n\nThe financing comprises a $1.2 billion senior secured term loan and $1.2 billion of senior secured notes, with proceeds to fund IREN’s purchase of air-cooled NVIDIA Accelerated Computing Infrastructure including NVIDIA Blackwell Ultra GPUs for IREN’s Mackenzie data center campus in British Columbia, Canada. The facility is structured to fund equipment purchases in tranches over a defined draw period, allowing capital to be deployed alongside the delivery and commissioning of hardware. The transaction supports IREN’s continued build-out of its AI Cloud infrastructure, which is underpinned by a more than 5GW global data center development pipeline.\n\nSource: https://t.co/OMcJkaman5",
+    "handle": "DollarCostAvg",
+    "source": "investing",
+    "category": ":IREN US",
+    "permalink": "https://x.com/DollarCostAvg/status/2095302933042651164",
+    "media": [
+      "https://pbs.twimg.com/media/HRQCm7JagAAqsyT.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "NVDA"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW",
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095302444045512901",
+    "time": "2026-09-03T00:06:46.000Z",
+    "summary": "@valuedontlie They’ve successfully taken plenty of cost and low margin revs out of the biz.",
+    "full_text": "@valuedontlie They’ve successfully taken plenty of cost and low margin revs out of the biz. More of the console side deserves a discount (GTA VI no physical, diss-less next gen, etc.), while higher margin collectibles sales mix has grown… hard to have an adult conversation about for some.",
+    "handle": "RodAlzmann",
+    "source": "Rod Alzmann",
+    "category": ":NET US",
+    "permalink": "https://x.com/RodAlzmann/status/2095302444045512901",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NET"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095301537316929910",
     "time": "2026-09-03T00:03:09.000Z",
     "summary": "Hot Chips 2026 starter pack",
@@ -20,6 +172,87 @@
     "sectors": [],
     "in_universe": false,
     "has_media": true
+  },
+  {
+    "id": "2095299476328206505",
+    "time": "2026-09-02T23:54:58.000Z",
+    "summary": "🦉 + Blue $Owl = exactly what the market needed to see.",
+    "full_text": "🦉 $IREN + Blue $Owl = exactly what the market needed to see.\n\n$2.4 BILLION in debt financing for NVIDIA Blackwell Ultra GPUs.\n\nThis is the key: DEBT financing — not common equity.\n\nIREN is showing it can fund massive AI infrastructure expansion using customer prepayments + private credit instead of relying entirely on shareholder dilution.\n\nThe bear case was: “How will they fund all this capex without destroying shareholders?”\n\nBlue Owl just provided part of the answer.\n\nLONG $IREN",
+    "handle": "DollarCostAvg",
+    "source": "investing",
+    "category": ":IREN US",
+    "permalink": "https://x.com/DollarCostAvg/status/2095299476328206505",
+    "media": [
+      "https://pbs.twimg.com/media/HRP_xMTbkAA2UQM.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "NVDA"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW",
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095299023833862445",
+    "time": "2026-09-02T23:53:10.000Z",
+    "summary": "🚨 Material positive update: the financing thesis just got stronger.",
+    "full_text": "🚨 Material positive $IREN update: the financing thesis just got stronger.\n\nA $2.4 billion debt financing led by Blue Owl has now been publicly detailed for IREN’s NVIDIA Blackwell Ultra GPU deployment. The structure includes $1.2B of senior secured term loans + $1.2B of senior secured notes, with proceeds specifically funding GPU purchases for IREN’s Mackenzie AI campus in British Columbia. \n\nThis matters because it provides concrete evidence that IREN can fund a meaningful portion of its AI expansion through private credit rather than common-equity issuance/ATM dilution. That directly supports management’s recent argument that customer prepayments plus GPU financing can shoulder much of the capex burden.",
+    "handle": "DollarCostAvg",
+    "source": "investing",
+    "category": ":IREN US",
+    "permalink": "https://x.com/DollarCostAvg/status/2095299023833862445",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "NVDA"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW",
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095294811435602350",
+    "time": "2026-09-02T23:36:26.000Z",
+    "summary": "@Agrippa_Inv You see it with Nscale IPO also that they try to keep so much silent so fully agree with the silent period by Anthropic.",
+    "full_text": "@Agrippa_Inv You see it with Nscale IPO also that they try to keep so much silent so fully agree with the silent period by Anthropic.",
+    "handle": "MarkosAAIG",
+    "source": "Markos",
+    "category": ":IREN US",
+    "permalink": "https://x.com/MarkosAAIG/status/2095294811435602350",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "HUT"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW"
+    ],
+    "in_universe": true,
+    "has_media": false
   },
   {
     "id": "2095285648295133606",
@@ -199,6 +432,32 @@
     "has_media": false
   },
   {
+    "id": "2095278649851404453",
+    "time": "2026-09-02T22:32:13.000Z",
+    "summary": "100% Mon!!",
+    "full_text": "100% Mon!!\n\nI think we’ll all be talking about $50-$100M / MW soon enough.\n\nAll the more reason, IREN’s DELIBERATE STRATEGY to not rush deals, will be proven to be GENIUS!!!\n\nLONG & BULLISH $IREN 🔥🔥🔥",
+    "handle": "TheBigDegen",
+    "source": "The Big Degen",
+    "category": ":IREN US",
+    "permalink": "https://x.com/TheBigDegen/status/2095278649851404453",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "DELL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW",
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095277901705101603",
     "time": "2026-09-02T22:29:14.000Z",
     "summary": "@altcap @bgurley @noahrshinn Thanks for July 10 2025 Michael Dell interview.",
@@ -328,6 +587,80 @@
     "has_media": true
   },
   {
+    "id": "2095268533374800358",
+    "time": "2026-09-02T21:52:01.000Z",
+    "summary": "Great insights 👍 Everything is lining up perfectly for 👀 Once the Horizon 1 contracted revenue from (and ditto for H2-H4 soon) starts hitting their accounts, IREN’s share pric…",
+    "full_text": "Great insights 👍\n\nEverything is lining up perfectly for $IREN 👀\n\nOnce the Horizon 1 contracted revenue from $MSFT (and ditto for H2-H4 soon) starts hitting their accounts, IREN’s share price will be off to the races!! 📈📈📈",
+    "handle": "TheBigDegen",
+    "source": "The Big Degen",
+    "category": ":IREN US",
+    "permalink": "https://x.com/TheBigDegen/status/2095268533374800358",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "MSFT",
+      "DELL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Horizontal SW",
+      "Cyber Related",
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095268448347512924",
+    "time": "2026-09-02T21:51:40.000Z",
+    "summary": "סיכום יום: הפסד $32,455 (0.37%-) אין ספק שחוסר ביטחון התגנב לי למסחר, כניסה ל בעיתוי כמעט מושלם, המניה קצת משתהה ותוך דקה אני מוכר חצי.",
+    "full_text": "סיכום יום:\nהפסד $32,455 (0.37%-)\nאין ספק שחוסר ביטחון התגנב לי למסחר, כניסה ל $NVDA בעיתוי כמעט מושלם, המניה קצת משתהה ותוך דקה אני מוכר חצי. עוברת דקה נוספת ועוד חצי נמכר, כמעט בלי הפסד ודקותיים אחרי המניה מתפוצצת ואני לא מסוגל לקנות אחרי הריצה הראשונה.\nחוסר הביטחון נכנס בעיקר בגלל כניסות Owning בשבוע שעבר במיוחד ב NVDA שבוע שעבר עם 4 טריידים כאלה.  כניסות Owning- סוג של כניסות פומו מכובסות שאני תופס בעלות על מהלך עתידי מדומיין, \"מוצא\" את הסיבה הגיונית לכניסה אבל לא כזאת שהשוק קורא לי להיכנס. שבוע שעבר מבחינתי הייתי חייב להיות בתנועת המשך במניה אחרי הדוח המוצלח- למה? \nגם במודרנה סיפור דומה וכך הספק מחלחל פנימה ופוגע בטריידים אחרים. זה בא לידי ביטוי בטרייד בטסלה שלשום כשזרקתי מהר וכמובן היום.\nאז כן, צריך לכוון את המיתרים🤞",
+    "handle": "ultrawavetrader",
+    "source": "Indi",
+    "category": ":NVDA US",
+    "permalink": "https://x.com/ultrawavetrader/status/2095268448347512924",
+    "media": [
+      "https://pbs.twimg.com/media/HRPYVNJbcAAQ7-_.png",
+      "https://pbs.twimg.com/media/HRPYd8xXEAIMmFY.png",
+      "https://pbs.twimg.com/media/HRPb-JXbwAArS5-.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NVDA"
+    ],
+    "themes": [],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095267725623066782",
+    "time": "2026-09-02T21:48:48.000Z",
+    "summary": "Multiple model updates now drop every week that push the cost per task somewhere on the frontier materially lower.",
+    "full_text": "Multiple model updates now drop every week that push the cost per task somewhere on the frontier materially lower.  AI token prices are going to 0 extraordinarily fast.  Outright AI spend declines might be around the corner.  What an unmitigated disaster that would be for $SPX.",
+    "handle": "AllVentured",
+    "source": "AllThingsVentured",
+    "category": ":AI",
+    "permalink": "https://x.com/AllVentured/status/2095267725623066782",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
     "id": "2095265006522966038",
     "time": "2026-09-02T21:38:00.000Z",
     "summary": "reaches its most consequential financing phase in fiscal 2027, when the AI build demands $40 billion of external capital in a single year.",
@@ -354,6 +687,30 @@
     "has_media": true
   },
   {
+    "id": "2095264549314437623",
+    "time": "2026-09-02T21:36:11.000Z",
+    "summary": "trading for ~12x what their guide implies for calendar 2028.",
+    "full_text": "$AVGO trading for ~12x what their guide implies for calendar 2028. Obviously a lot can change in terms of supply/demand, AI lab revenue growth, etc., but a lot of stuff looks cheap based on what hyperscalers and their suppliers are forecasting for the next couple of years.",
+    "handle": "EricJhonsa",
+    "source": "Eric Jhonsa",
+    "category": ":AVGO US",
+    "permalink": "https://x.com/EricJhonsa/status/2095264549314437623",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AVGO"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095264017220526221",
     "time": "2026-09-02T21:34:04.000Z",
     "summary": "@kejca @edzitron",
@@ -376,6 +733,33 @@
     ],
     "in_universe": true,
     "has_media": false
+  },
+  {
+    "id": "2095262569330323813",
+    "time": "2026-09-02T21:28:19.000Z",
+    "summary": "with some incredible headline numbers.",
+    "full_text": "$AVGO with some incredible headline numbers. Revenue was up 86%, FCF was up 95%, and Q3 AI semiconductor revenue grew 221%. Insane growth numbers. https://t.co/tCSPBveAWC",
+    "handle": "QualityAtScale_",
+    "source": "QualityAtScale",
+    "category": ":AVGO US",
+    "permalink": "https://x.com/QualityAtScale_/status/2095262569330323813",
+    "media": [
+      "https://pbs.twimg.com/media/HRPeMqWasAA5C9H.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AVGO"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
   },
   {
     "id": "2095259332828946742",
