@@ -1,5 +1,29 @@
 [
   {
+    "id": "2095335721842221281",
+    "time": "2026-09-03T02:19:00.000Z",
+    "summary": "BofA: Nvidia continues to expect no market share loss over the coming years, sitting at 65-70% market share through 2030.",
+    "full_text": "BofA: Nvidia continues to expect no market share loss over the coming years, sitting at 65-70% market share through 2030. \n\n$NVDA",
+    "handle": "pequityresearch",
+    "source": "P Equity Research 📰",
+    "category": ":NVDA US",
+    "permalink": "https://x.com/pequityresearch/status/2095335721842221281",
+    "media": [
+      "https://pbs.twimg.com/media/HRP3oMSboAAgGSe.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NVDA"
+    ],
+    "themes": [],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
     "id": "2095330267938332932",
     "time": "2026-09-03T01:57:19.000Z",
     "summary": "@g2ai_g2ai 👍",
@@ -254,6 +278,32 @@
     "has_media": false
   },
   {
+    "id": "2095307264680677575",
+    "time": "2026-09-03T00:25:55.000Z",
+    "summary": "A suggested edit: “80% of the revenues *that we see* come from 1% of their customers”.",
+    "full_text": "A suggested edit:  “80% of the revenues *that we see* come from 1% of their customers”.   A statistic without methodology or context can be misleading.  For example… Does Ramp’s 80% calc include / correctly attribute ANT consumption through Bedrock and OAI consumption through Azure?  What percentage of the sample comes from those channels?   Answers to those questions make the statistic more interesting.",
+    "handle": "DratchCap",
+    "source": "Matt Dratch",
+    "category": ":MSFT US",
+    "permalink": "https://x.com/DratchCap/status/2095307264680677575",
+    "media": [
+      "https://pbs.twimg.com/media/HROpDFfXgAE_M1T.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [
+      "MSFT"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
     "id": "2095306821971910718",
     "time": "2026-09-03T00:24:09.000Z",
     "summary": "UBS does not see China achieving an EUV tool within the next 10 years.",
@@ -280,6 +330,26 @@
     ],
     "in_universe": true,
     "has_media": true
+  },
+  {
+    "id": "2095305214618210347",
+    "time": "2026-09-03T00:17:46.000Z",
+    "summary": "@gordocap18 I love the pic and chutzpah, but respectfully disagree.",
+    "full_text": "@gordocap18 I love the pic and chutzpah, but respectfully disagree.  Your E is too low ;)",
+    "handle": "DratchCap",
+    "source": "Matt Dratch",
+    "category": ":AI",
+    "permalink": "https://x.com/DratchCap/status/2095305214618210347",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
   },
   {
     "id": "2095305150176927945",
