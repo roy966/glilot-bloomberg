@@ -360,6 +360,32 @@
     "has_media": true
   },
   {
+    "id": "2095302646873653675",
+    "time": "2026-09-03T00:07:34.000Z",
+    "summary": "Warren Buffett told Charlie Munger, late in Munger's life: \"It's so interesting now.",
+    "full_text": "Warren Buffett told Charlie Munger, late in Munger's life: \n\n\"It's so interesting now. I would like to stick around for another 30 years if I couldn't participate. If I could just watch.\"\n\nSarah Guo gets to participate, and that's why she works so hard.\n\n(From our first conversation with Sarah, Aug. 2024)",
+    "handle": "InvestLikeBest",
+    "source": "Invest Like the Best",
+    "category": ":ROBOTICS",
+    "permalink": "https://x.com/InvestLikeBest/status/2095302646873653675",
+    "media": [
+      "https://pbs.twimg.com/media/HRQAnFDW8AAq4E3.jpg",
+      "https://pbs.twimg.com/media/HRQAnFdaYAAZfaQ.jpg",
+      "https://pbs.twimg.com/amplify_video_thumb/2094500067646345216/img/25sERGB7_QhjMHV6.jpg",
+      "https://video.twimg.com/amplify_video/2094500067646345216/vid/avc1/1920x1080/MB1LCiWqNzBzBZc7.mp4?tag=29"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "ROBOTICS",
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": true
+  },
+  {
     "id": "2095302444045512901",
     "time": "2026-09-03T00:06:46.000Z",
     "summary": "@valuedontlie They’ve successfully taken plenty of cost and low margin revs out of the biz.",
@@ -553,6 +579,26 @@
       "Semis & HW"
     ],
     "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095297962331226336",
+    "time": "2026-09-02T23:48:57.000Z",
+    "summary": "@speedrun @thejessezhang @DecagonAI Such a great conversation!",
+    "full_text": "@speedrun @thejessezhang @DecagonAI Such a great conversation! Thank you Jesse!",
+    "handle": "Tocelot",
+    "source": "Jon Lai",
+    "category": ":AI",
+    "permalink": "https://x.com/Tocelot/status/2095297962331226336",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
     "has_media": false
   },
   {
