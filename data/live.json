@@ -75,6 +75,31 @@
     "has_media": true
   },
   {
+    "id": "2095305150176927945",
+    "time": "2026-09-03T00:17:31.000Z",
+    "summary": "BREAKING: Waymo, the self-driving car unit of Alphabet, hired Goldman to raise nearly $3 billion of debt, which will come from PIMCO, Blackstone, and Sixth Street.",
+    "full_text": "BREAKING: Waymo, the self-driving car unit of Alphabet, hired Goldman to raise nearly $3 billion of debt, which will come from PIMCO, Blackstone, and Sixth Street. \n\nThe debt will be unrated and could price at more than 500 basis points over the benchmark. https://t.co/LjexCdd1wX",
+    "handle": "shortsqueeznews",
+    "source": "Short Squeez",
+    "category": ":GOOGL US",
+    "permalink": "https://x.com/shortsqueeznews/status/2095305150176927945",
+    "media": [
+      "https://pbs.twimg.com/media/HRQE4YuWAAIvXEQ.jpg",
+      "https://pbs.twimg.com/media/HRQE7dGbAAA31uI.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "GOOGL"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
     "id": "2095304420368023696",
     "time": "2026-09-03T00:14:37.000Z",
     "summary": "Google’s Network business is vestigial",
@@ -147,6 +172,30 @@
     ],
     "in_universe": true,
     "has_media": true
+  },
+  {
+    "id": "2095303380864537005",
+    "time": "2026-09-03T00:10:29.000Z",
+    "summary": "@PureValue1 @heyshalin Those are common questions.",
+    "full_text": "@PureValue1 @heyshalin Those are common questions.\n\nI would recommend research in how Google functions and breakout monetization by channel, and also why Subreddits grow, to understand these things.\n\nHere's a quick breakdown:\n\nAlso, an explainer on how Search actually works here: https://t.co/g5s0xpmj5k\n\nRegarding what would happen if referral traffic dropped. Not much, actually.\n\nReferral traffic is a low-time interaction. People look for a quick answer and bounce.\n\nThe avg Redditor by contrast is spending 30 minutes on the platform. That's 30x the time that they can be getting from a single referral visit.\n\nSo a theoretical 20% decline in referrals would be a slight effect on revenue, and virtually nothing compared to their ongoing ARPU expansion.\n\nMonetization is the number of users times the amount of time spent on the platform (more ad impressions), and the monetization rate.\n\nGetting new cohorts is also important, and Reddit does that naturally by having the biggest communities on any particular subject. That's the network effect.\n\nI'd also suggest researching bull points on why Reddit traffic will grow significantly. As AI/LLM auto-translate is super-charging international growth. And ARPU is still undermonetized and in early phases.",
+    "handle": "bjmtweets",
+    "source": "Brian McCormick",
+    "category": ":GOOGL US",
+    "permalink": "https://x.com/bjmtweets/status/2095303380864537005",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "GOOGL"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
   },
   {
     "id": "2095302933042651164",
@@ -248,6 +297,50 @@
     "has_media": true
   },
   {
+    "id": "2095300692298907678",
+    "time": "2026-09-02T23:59:48.000Z",
+    "summary": "‘고점 대비 20% 하락하면 약세장.’ AI 시대의 고베타 자산에는 이 공식이 점점 잘 맞지 않는다.",
+    "full_text": "‘고점 대비 20% 하락하면 약세장.’\n\nAI 시대의 고베타 자산에는 이 공식이 점점 잘 맞지 않는다.\n\n필라델피아 반도체지수는 고점 대비 20% 이상 하락했는데도 저점에서 연초 대비 약 46% 상승한 상태였다.\n\n20%가 빠졌는데 연간 수익률은 여전히 46% 플러스다.\n\n전통적인 약세장과 같은 의미로 보기 어려운 이유다.\n\n핵심은 변동성이다.\n\n연간 변동성이 매우 높은 반도체지수의 20% 하락과\n\n저변동성 자산의 20% 하락은 전혀 다른 움직임이다.\n\n그래서 낙폭만 보는 기준은 점점 정보가 부족해진다.\n\n같이 봐야 하는 것은\n\n기업이익 추세,\n실적 전망 변화,\n장기 이동평균,\n변동성,\n하락 지속기간이다.\n\n주가가 25% 하락했는데 이익 전망은 계속 올라간다면 가치평가 조정일 가능성이 크다.\n\n주가가 15%만 하락했는데 이익 전망이 계속 무너지면 오히려 더 위험하다.\n\nAI 시대의 고베타 시장에서는\n\n‘얼마나 빠졌는가’보다\n\n‘무엇이 바뀌어서 빠졌는가’\n\n가 훨씬 중요하다.\n\n20%라는 숫자는 시장 상태를 자동으로 결정하는 경계선이 아니다.",
+    "handle": "dubidubabap",
+    "source": "ByungJun Ahn",
+    "category": ":AI",
+    "permalink": "https://x.com/dubidubabap/status/2095300692298907678",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095300234742210727",
+    "time": "2026-09-02T23:57:59.000Z",
+    "summary": "Sivers Semiconductors 현재 상황 총정리.",
+    "full_text": "$SIVE Sivers Semiconductors 현재 상황 총정리.\n\n주가가 크게 무너졌다.\n\nQ2 실적 발표일 36.16 SEK에서 9월 2일 22.10 SEK.\n\n불과 4거래일 만에 약 39% 하락했다.\n\n6월 기관투자자들이 57 SEK에 참여했던 7억 SEK 규모 유상증자 가격과 비교하면 약 61% 아래다.\n\n급락의 직접적인 원인은 Q2 실적이었다.\n\n매출 5,380만 SEK.\nRedeye 예상 6,230만 SEK.\n\n조정 EBITDA -3,550만 SEK.\n예상 -1,690만 SEK보다 훨씬 부진했다.\n\n회사는 기존 연구개발 용역 사업에서 인력을 빼 2027년 제품 양산 준비에 집중하고 있다.\n\n그 과정에서 단기 매출이 줄고 비용 부담이 커졌다.\n\n반면 사업 내부에서는 중요한 변화가 진행 중이다.\n\n제품 매출은 환율 영향을 제외하면 전년 대비 18% 증가했다.\n\n잠재 사업 규모는 2025년 말 대비 268% 증가한 12억달러.\n\n5월에서 7월 사이에도 52% 증가했다.\n\n일부는 이미 실제 생산 주문으로 전환되고 있다.\n\nhttps://t.co/zFrFQHneqp는 820만달러 생산 주문을 확보했고 2027년 양산 예정이다.\n\nTachyon Networks는 초기 300만달러 생산 주문을 확보하고 다년간 생산 단계에 들어갔다.\n\nSemiNex와는 340만달러 규모 AI 데이터센터 사업을 진행 중이다.\n\n라이다 고객은 2026년 4분기와 2027년 생산 주문이 예상된다.\n\nJabil은 2026년 4분기 시험 생산, 2027년 상반기 초기 생산 주문, 하반기 본격 양산 확대를 목표로 한다.\n\n특히 AI 데이터센터 쪽이 중요하다.\n\nJabil 외에도 신규 고객 6곳이 추가됐다.\n\n3곳은 샘플 평가 단계, 3곳은 기술 검토와 공급 평가 단계다.\n\nSivers가 노리는 시장은 AI 데이터센터용 광통신 레이저다.\n\nAI 데이터센터가 커질수록 서버 간 데이터 전송량이 폭증하고 광통신 장비와 레이저 수요도 함께 증가한다.\n\n현재 시장은 Lumentum과 Coherent 같은 대형 업체들이 주도한다.\n\nSivers의 전략은 이들을 밀어내는 것이 아니라 급증하는 수요를 대응할 추가 공급업체로 자리 잡는 것이다.\n\n새로운 외부 생산업체도 확보했다.\n\n장기적으로 전체 생산량의 약 3분의 1은 자체 생산, 3분의 2는 외부 생산을 활용할 계획이다.\n\nAI 데이터센터용 광증폭기 분야에서도 추가 약 40억달러 규모의 공략 가능한 시장을 확인했다.\n\n결국 Sivers의 사업 구조가 바뀌고 있다.\n\n과거에는 고객에게 기술을 개발해주고 개발비를 받는 비중이 컸다.\n\n앞으로는 제품 평가와 인증을 거쳐 실제 생산 주문을 받고, 반복적인 제품 매출을 만드는 구조로 이동한다.\n\n이 전환의 중심이 2027년이다.\n\n그래서 주가가 다시 제대로 올라가려면 시간이 필요할 가능성이 높다고 본다.\n\n단기적인 과매도 반등은 언제든 가능하다.\n\n하지만 지속적인 추세 반전을 위해 시장이 원하는 것은 새로운 잠재 사업 규모가 아니라 실제 생산 주문과 실제 매출이다.\n\n가장 가까운 승부처는 2026년 4분기다.\n\n회사도 이 시기를 매출 변곡점으로 제시했다.\n\n가장 먼저 확인할 것은 라이다 생산 주문과 Jabil 시험 생산이다.\n\n11월 26일 Q3 실적에서도 단기 숫자보다 2027년 양산 일정이 계획대로 진행되는지가 중요하다.\n\n가장 중요한 재평가 구간은 2027년 상반기다.\n\nJabil 생산 주문.\n\nTachyon 추가 주문.\n\n대형 무선통신 고객 주문.\n\nAI 데이터센터 신규 고객들의 제품 인증.\n\n이것들이 실제 계약으로 확인되기 시작하면 12억달러 잠재 사업에 대한 시장의 평가도 달라질 수 있다.\n\n2027년 하반기에는 Jabil과 AI 데이터센터 고객들의 대량생산이 실제 매출로 잡혀야 한다.\n\n그리고 이번 급락에도 투자 논리는 변하지 않았다.\n\n핵심은 AI 데이터센터 광통신 시장의 성장, 광통신용 레이저 공급 부족, 대형 고객 인증, 실제 생산 주문 전환, 2027년 이후 하드웨어 양산 확대다.\n\n이제 중요한 것은 12억달러라는 숫자가 아니라 그중 얼마가 실제 주문과 매출로 전환되는지다.\n\n주가는 크게 변했다.\n\n투자 논리는 변하지 않았다.\n\n가장 가까운 승부처는 2026년 4분기.\n\n가장 중요한 승부처는 2027년 상반기.\n\n진짜 실적이 증명되는 구간은 2027년 하반기다.\n\n이제 Sivers에게 필요한 것은 실행과 숫자다.",
+    "handle": "dubidubabap",
+    "source": "ByungJun Ahn",
+    "category": ":LITE US",
+    "permalink": "https://x.com/dubidubabap/status/2095300234742210727",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "LITE"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095299476328206505",
     "time": "2026-09-02T23:54:58.000Z",
     "summary": "🦉 + Blue $Owl = exactly what the market needed to see.",
@@ -304,6 +397,34 @@
     "has_media": false
   },
   {
+    "id": "2095296218687840303",
+    "time": "2026-09-02T23:42:01.000Z",
+    "summary": "Broadcom의 AI칩 매출은 3분기 167억 달러로 3배 이상 증가했다.",
+    "full_text": "Broadcom의 AI칩 매출은 3분기 167억 달러로 3배 이상 증가했다.\n\n4분기에는 217억 달러를 전망한다.\n\n커스텀 AI칩 시장 자체는 폭발하고 있다.\n\n그런데 더 흥미로운 변화는 고객들이 Broadcom 하나에 모든 물량을 몰아주지 않는다는 점이다.\n\nGoogle은 Broadcom과 장기 협력을 이어가면서 동시에 Marvell과도 새로운 커스텀 AI칩 계약을 맺었다.\n\nAI ASIC 시장이 커질수록 고객은 오히려 공급망을 다변화하려 한다.\n\n이 구조에서는 설계사 한 곳의 독점력이 생각보다 약해질 수 있다.\n\n반대로 어느 ASIC 업체가 이겨도 반드시 필요한 공급망은 더 강해질 수 있다.\n\n파운드리,\nHBM,\n첨단 패키징,\n기판,\n광통신이다.\n\nBroadcom이 이기든 Marvell이 이기든 칩은 결국 생산돼야 하고 HBM이 붙어야 하며 패키징을 거쳐 데이터센터에 연결돼야 한다.\n\n그래서 AI ASIC 시장의 가장 안정적인 승자가 설계사 자체가 아닐 수도 있다.\n\nAI칩 전쟁이 엔비디아 대 ASIC에서 끝나는 게 아니라\n\nASIC 내부에서도 Broadcom 대 Marvell 대 신규업체 경쟁으로 넘어가면,\n\n오히려 그 아래 제조 공급망의 협상력이 더 강해질 수 있다.",
+    "handle": "dubidubabap",
+    "source": "ByungJun Ahn",
+    "category": ":AVGO US",
+    "permalink": "https://x.com/dubidubabap/status/2095296218687840303",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AVGO",
+      "MRVL",
+      "GOOGL"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW",
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095294811435602350",
     "time": "2026-09-02T23:36:26.000Z",
     "summary": "@Agrippa_Inv You see it with Nscale IPO also that they try to keep so much silent so fully agree with the silent period by Anthropic.",
@@ -329,6 +450,33 @@
     "has_media": false
   },
   {
+    "id": "2095290741031321954",
+    "time": "2026-09-02T23:20:15.000Z",
+    "summary": "is a great example of AI benefiting both the builders and the beneficiaries.",
+    "full_text": "$SNOW is a great example of AI benefiting both the builders and the beneficiaries.\n\nRevenue came in at $1.55B, up 35%, against $1.48B expected. EPS was $0.62 against $0.45. Product revenue hit $1.49B, up 37%, and that's now three straight quarters of acceleration after they ended last year at 30%.\n\nManagement says AI products drove about half of that pickup.\n\nQ3 product revenue guided to $1.59B against $1.50B consensus, and they took the full year up to $6.07B from $5.84B in May, so 36% growth. Operating margin guidance went to 14.5% from 13.5%, and they expanded margins 400bps while growth was accelerating.\n\nNet revenue retention at 126%. Net loss narrowed to $191.7M from $297.9M.\n\nGrowing faster and making more money at the same time is the combination nobody gets, which is why the stock is up 22% after hours.\n\nNot everything is rosy though.\n\nProduct gross margin guidance got cut to 74% because of AI workload mix. AI revenue is compute-heavy and costs more to serve, so even the winners give something back on margin. That's the builders getting paid, and it comes straight out of the beneficiary's gross line.\n\nAnd RPO grew 30% while product revenue grew 37%, so the backlog is growing slower than the business.",
+    "handle": "ren_stocks",
+    "source": "Ren",
+    "category": ":SNOW US",
+    "permalink": "https://x.com/ren_stocks/status/2095290741031321954",
+    "media": [
+      "https://pbs.twimg.com/media/HRPTC4vbIAASDms.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "SNOW",
+      "NET"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
     "id": "2095288001127444839",
     "time": "2026-09-02T23:09:22.000Z",
     "summary": "@wilburforce_ Just one of my hedge fund clients covers my inference cost many times over.",
@@ -347,6 +495,29 @@
     "sectors": [],
     "in_universe": false,
     "has_media": false
+  },
+  {
+    "id": "2095285753995547045",
+    "time": "2026-09-02T23:00:26.000Z",
+    "summary": "paul rowsthorn ordered three mac minis for his AI agents.",
+    "full_text": "paul rowsthorn ordered three mac minis for his AI agents. the shop called to check it wasn't a scam.\n\nhis maths: save $80 a month in cloud costs and a machine pays for itself in a year.\n\nthe real stack, not the hype.\n\nwatch: https://t.co/1QEZxDVLdv https://t.co/Pi9QdcAXnW",
+    "handle": "superzac",
+    "source": "Zachary King",
+    "category": ":AI",
+    "permalink": "https://x.com/superzac/status/2095285753995547045",
+    "media": [
+      "https://pbs.twimg.com/ext_tw_video_thumb/2095285675775991813/pu/img/Z-OniH7SCifFlQc7.jpg",
+      "https://video.twimg.com/ext_tw_video/2095285675775991813/pu/vid/avc1/720x1280/RJe_DQ8MXoHJYr2i.mp4?tag=12"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": true
   },
   {
     "id": "2095285648295133606",
@@ -375,6 +546,28 @@
     "has_media": true
   },
   {
+    "id": "2095285138582315471",
+    "time": "2026-09-02T22:58:00.000Z",
+    "summary": "Am I thinking about right?",
+    "full_text": "Am I thinking about $GME right?\n\n(ignoring recent convertible exchanges)\n\n593m share count assumes all debt converts to equity x $19/sh = $11.3b market cap\n\nLess $10b net cash &amp; ebay stock = $1.3b EV\n\nTrailing GAAP EBIT for underlying retail stores = $480m\n\nEV/EBIT at 2.7x",
+    "handle": "valuedontlie",
+    "source": "Colin King",
+    "category": ":NET US",
+    "permalink": "https://x.com/valuedontlie/status/2095285138582315471",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NET"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095282460619636790",
     "time": "2026-09-02T22:47:21.000Z",
     "summary": "CEO Hock Tan is confident they will ship $350 billion of AI semiconductors combined across fiscal 2027 ($115 billion) and fiscal 2028 ($230 billion) to these customers, regardle…",
@@ -399,6 +592,32 @@
     ],
     "in_universe": true,
     "has_media": true
+  },
+  {
+    "id": "2095281909848789068",
+    "time": "2026-09-02T22:45:10.000Z",
+    "summary": "@ZeekTyt 👀👀",
+    "full_text": "@ZeekTyt 👀👀",
+    "handle": "SmallCapSnipa",
+    "source": "Small Cap Snipa",
+    "category": ":IREN US",
+    "permalink": "https://x.com/SmallCapSnipa/status/2095281909848789068",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "IREN",
+      "CIFR",
+      "HUT",
+      "MSFT"
+    ],
+    "themes": [],
+    "sectors": [
+      "Horizontal SW",
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
   },
   {
     "id": "2095281830266278253",
@@ -697,6 +916,28 @@
     "has_media": true
   },
   {
+    "id": "2095277784444592237",
+    "time": "2026-09-02T22:28:46.000Z",
+    "summary": "@solarespirate That’s the whole point of my reporting.",
+    "full_text": "@solarespirate That’s the whole point of my reporting. We don’t know because Tesla hides all the data.\n\nBut one thing is clear. Tesla ADAS crashes are currently at a record high\n\nhttps://t.co/m0ed2Ii6eb",
+    "handle": "FredLambert",
+    "source": "Fred Lambert",
+    "category": ":TSLA US",
+    "permalink": "https://x.com/FredLambert/status/2095277784444592237",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "TSLA"
+    ],
+    "themes": [],
+    "sectors": [
+      "Emerging Tech"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095275144826478660",
     "time": "2026-09-02T22:18:17.000Z",
     "summary": "מניית מטא עלתה רק 2% על שחרור המודל השלישי הכי למי-איכפת-לעזאזל.",
@@ -777,6 +1018,30 @@
     "has_media": true
   },
   {
+    "id": "2095271141703340172",
+    "time": "2026-09-02T22:02:23.000Z",
+    "summary": "@heyshalin Intrinsic value is incredible.",
+    "full_text": "@heyshalin Intrinsic value is incredible.\n\nYou're paying around a 20 NTM P/E for something with 90% gross margins and 30% net margin that still has an under-developed monetization engine, with worldwide user expansion ahead of it- accelerated by AI powered auto-translate.\n\nAI licensing deals are extra.\n\nImagine if Meta products went 20 years community building and just built a decent monetization engine within the past 12 months. This is Reddit.",
+    "handle": "bjmtweets",
+    "source": "Brian McCormick",
+    "category": ":NET US",
+    "permalink": "https://x.com/bjmtweets/status/2095271141703340172",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NET"
+    ],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095270829823332364",
     "time": "2026-09-02T22:01:08.000Z",
     "summary": "@altcap 2021 was arguably too high.",
@@ -798,6 +1063,26 @@
       "Cyber Related"
     ],
     "in_universe": true,
+    "has_media": false
+  },
+  {
+    "id": "2095270358966231516",
+    "time": "2026-09-02T21:59:16.000Z",
+    "summary": "@mistermasters Lots of rotation!",
+    "full_text": "@mistermasters Lots of rotation!",
+    "handle": "Deepvue",
+    "source": "Deepvue",
+    "category": ":CYBER",
+    "permalink": "https://x.com/Deepvue/status/2095270358966231516",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "CYBER"
+    ],
+    "sectors": [],
+    "in_universe": false,
     "has_media": false
   },
   {
