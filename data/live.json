@@ -477,6 +477,28 @@
     "has_media": true
   },
   {
+    "id": "2095289067273343067",
+    "time": "2026-09-02T23:13:36.000Z",
+    "summary": "Hock Tan said is on track to exceed $30 in EPS in fiscal 2028.",
+    "full_text": "Hock Tan said $AVGO is on track to exceed $30 in EPS in fiscal 2028.\n\nWith a 20x-40x multiple that puts the stock between $600 - $1200\n\nIt’s at $360 now..",
+    "handle": "paul_k_0907",
+    "source": "PK",
+    "category": ":AVGO US",
+    "permalink": "https://x.com/paul_k_0907/status/2095289067273343067",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AVGO"
+    ],
+    "themes": [],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095288001127444839",
     "time": "2026-09-02T23:09:22.000Z",
     "summary": "@wilburforce_ Just one of my hedge fund clients covers my inference cost many times over.",
@@ -494,6 +516,28 @@
     ],
     "sectors": [],
     "in_universe": false,
+    "has_media": false
+  },
+  {
+    "id": "2095287967052869783",
+    "time": "2026-09-02T23:09:14.000Z",
+    "summary": "@natstewart5 @taobanker Guessing you live on the west coast",
+    "full_text": "@natstewart5 @taobanker Guessing you live on the west coast",
+    "handle": "pernasresearch",
+    "source": "Pernas Research",
+    "category": ":NET US",
+    "permalink": "https://x.com/pernasresearch/status/2095287967052869783",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NET"
+    ],
+    "themes": [],
+    "sectors": [
+      "Cyber Related"
+    ],
+    "in_universe": true,
     "has_media": false
   },
   {
