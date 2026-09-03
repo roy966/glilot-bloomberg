@@ -1,5 +1,51 @@
 [
   {
+    "id": "2095328503625634132",
+    "time": "2026-09-03T01:50:19.000Z",
+    "summary": "Memory went from 52% of AI chip component cost in Q1 2024 to 63% in Q4 2025, so the memory day at Hot Chips was 5 companies presenting 5 ways to need less of it, each built arou…",
+    "full_text": "Memory went from 52% of AI chip component cost in Q1 2024 to 63% in Q4 2025, so the memory day at Hot Chips was 5 companies presenting 5 ways to need less of it, each built around what the presenter sells:\n\n• Samsung: logic in the HBM base die (needs a logic foundry, which Samsung has) and logic inside LPDDR5X banks\n• d-Matrix: compute stacked directly on DRAM\n• HBF (SanDisk spec): NAND stacked like HBM, 8-16x the capacity\n• XCENA: 3,072 RISC-V cores on a CXL expander\n\nFull Hot Chips 2026 report below.",
+    "handle": "jasonschips",
+    "source": "Jason's Chips",
+    "category": ":CHIPS",
+    "permalink": "https://x.com/jasonschips/status/2095328503625634132",
+    "media": [
+      "https://pbs.twimg.com/media/HRQaCzNa0AArF3v.jpg"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": true
+  },
+  {
+    "id": "2095321514811810095",
+    "time": "2026-09-03T01:22:32.000Z",
+    "summary": "Boring doesn’t make headlines.",
+    "full_text": "Boring doesn’t make headlines.\n\nBut a lot of data centers are actually boring.\n\nThey do awesome, essential stuff.\n\nBut they’re boring.",
+    "handle": "saeverley",
+    "source": "Steve Everley",
+    "category": ":AI",
+    "permalink": "https://x.com/saeverley/status/2095321514811810095",
+    "media": [
+      "https://pbs.twimg.com/amplify_video_thumb/2095310382550351872/img/J7DYNqg1SpsC8rkA.jpg",
+      "https://video.twimg.com/amplify_video/2095310382550351872/vid/avc1/1920x1080/QKlxQyBtNYIWckCB.mp4?tag=29"
+    ],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": true
+  },
+  {
     "id": "2095318609274843352",
     "time": "2026-09-03T01:11:00.000Z",
     "summary": "Elon Musk at G20: \"10 years from now, there are well over 1 billion humanoid robots.",
@@ -4060,40 +4106,6 @@
     ],
     "sectors": [
       "Cyber Related",
-      "Horizontal SW",
-      "Semis & HW"
-    ],
-    "in_universe": true,
-    "has_media": true
-  },
-  {
-    "id": "latent.space:ainews-nvidia-buys-huggingface-for",
-    "time": "2026-08-27T01:50:54.000Z",
-    "summary": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro",
-    "full_text": "[AINews] NVIDIA buys HuggingFace for $13B, as OpenAI publishes their HF incident retro\nTheInformation had the scoop , and now they have the confirmation — Nvidia is buying HuggingFace for $13B, roughly 80x their $150M ARR , having doubled its customer base in 2026 . This is almost double Nvidia’s initial $7B offer in Jan 2026. What can we say? We love it when the good guys win. But in the backdrop of GLM-5.3-Flash (aka Ox Alpha) impressing everyone (except GDM vaguepoasters ) and Qwen also shipping an impressive Flash model on chinese chips, perhaps the post Hot Chips conversation about Western open AI is a great backdrop for this. AI News for 8/25/2026-8/26/2026. We checked 12 subreddits, 544 Twitters and no further Discords. AINews’ website lets you search all past issues. As a reminder, AINews is now a section of Latent Space . You can opt in/out of email frequencies! AI Twitter Recap Top Story: GLM 5.3 Flash launch and reactions What happened Z.ai formally launched GLM-5.3-Flash, revealing that the previously previewed “Ox Alpha” model is its public identity. Z.ai announced GLM-5.3-Flash as a natively multimodal model with a 1M-token context window , 320B total parameters / 18B active parameters , released under the MIT License , and available via weights, API, chat, coding plan, and AutoClaw. Z.ai simultaneously positioned it as a highly price-competitive successor to GLM-5.2, claiming on its internal benchmark that it outperforms GLM-5.2 at every effort level and is on par with Claude Opus 4.8 on coding . The launch also resolved the long-running Ox Alpha mystery: multiple posters explicitly connected Ox Alpha to GLM-5.3-Flash, including SemiAnalysis , rasbt , theo , and Cline . Early third-party model infrastructure support appeared almost immediately: CoreWeave , Baseten , and Cline’s free integration in VS Code / JetBrains / CLI . Shortly after launch, Z.ai engineer Zixuan Li said the chat template had been updated and early downloaders should re-download the model , implying a day-0 packaging or prompt-format correction. Artificial Analysis first published an overview with an incorrect 400k context window , then issued a correction to 1M context , aligning with Z.ai’s original announcement. Community response was unusually strong for an open-weight release, ranging from brief shock reactions like “HOLY” to more substantive claims that the model may now be the best intelligence-per-dollar option, e.g. Artificial Analysis and zainhas . The launch got folded into a broader narrative around Chinese frontier open models, with posts arguing that open Chinese labs are converging on similar architecture choices around linear attention, sparse attention, residual path design, and Muon . Independent pushback emerged on at least one modality claim: skalskip92 argued the model looks weak on several vision/object detection tasks despite being “native vision.” Official claims and launch details Z.ai’s primary launch tweet is the factual anchor: GLM-5.3-Flash is described as: 320B total params / 18B active 1M-token context natively multimodal MIT licensed previously previewed as Ox Alpha “running entirely on Chinese AI chips” Distribution/availability at launch: Weights on Hugging Face Z.ai API Chat ZCode Coding plan AutoClaw The strongest self-reported vendor performance claim came from Z.ai’s coding thread: on the Z.ai Code Bench , GLM-5.3-Flash “clearly outperforms GLM-5.2 at every effort level and performs on par with Claude Opus 4.8” . Because this is first-party benchmarking, it is useful but should be read more cautiously than independent evals. A follow-up launch-support post from AutoClaw framed the model as suitable for vision-language understanding, code generation, and long-horizon agentic tasks and paired availability with credits/rebates, but this is mainly rollout information rather than new technical evidence: AutoClaw launch post . Independent benchmarks and cost/performance positioning The most substantive independent evaluation in the tweet set came from Artificial Analysis. Their summary: GLM-5.3-Flash scores 57 on the Artificial Analysis Intelligence Index . Artificial Analysis metrics cited AA Intelligence Index score: 57 Gap vs GLM-5.3: 3 points behind GLM-5.3 at 60 Cost per task: $0.09 API price: $0.15 / 1M input , $0.50 / 1M output Cached input: ~$0.026–$0.03 / 1M , described as 80% discount Model size: 320B total / 18B active License: MIT Context: initially listed as 400k, later corrected to 1M Comparisons cited by Artificial Analysis Ties GPT-5.6 Terra and Muse Spark 1.2 at 57 , but at much lower cost per task. $0.09/task vs $0.68/task for GLM-5.3 max. Claimed ~7.5x lower cost per task than GLM-5.3 max. Claimed ~5.7x cheaper per task than GPT-5.6 Terra and ~4.4x cheaper than Muse Spark 1.2. Token-efficiency and reasoning mix Artificial Analysis notes an interesting tradeoff: GLM-5.3-Flash used 149M output tokens to run the Intelligence Index compared with 168M for GLM-5.3 but more than Kimi K3 (133M) and Qwen3.8 2.4T A95B (136M) at similar Intelligence Index score 134M of the 149M tokens (~90%) were reasoning tokens This is an important nuance: the model’s economics look excellent largely because token pricing is extremely low , not because it is especially token-frugal. Agentic/work evals from Artificial Analysis Artificial Analysis also reports that GLM-5.3-Flash is stronger than its raw knowledge metrics might imply on agentic tasks: GDPval-AA v2 Elo: 1770 tied within margin of error with GLM-5.3 and Grok 4.6 behind only Claude Opus 5 xhigh/max Terminal-Bench v2.1: 84.3% vs 83.9% for GLM-5.3 τ³-Banking: 47.2% , trailing GLM-5.3 by 3.1 percentage points Knowledge/hallucination stats AA-Omniscience score: +7 Accuracy: 28% Hallucination rate: 28% Compared with GLM-5.3: GLM-5.3 accuracy 34% GLM-5.3 hallucination rate 30% Compared with GPT-5.6 Terra: Terra accuracy 47% This suggests a recurring theme in reactions: GLM-5.3-Flash may be much stronger on practical code/agentic workflows than on broad real-world factual knowledge . Architecture and systems details Several technically informed reactions tried to reverse engineer or summarize what changed from GLM-5.2 / GLM-5.x. The most detailed public architecture breakdown in the tweet set came from rasbt , who says GLM-5.3-Flash moves from GLM-5.2’s 744B-A40B backbone to 320B-A18B , and uses: Kimi Linear-style 3:1 hybrid attention 34 KDA layers (Kimi Delta Attention) 11 MLA/DSA layers MLA = Multi-head Latent Attention DSA = DeepSeek Sparse Attention DeepSeek V4-style mHC residual path four parallel streams plus a native vision encoder The same tweet describes it as “super hybrid” because both major attention components are already “efficient” variants rather than a simple efficient/full-attention hybrid. Another useful systems-oriented summary from thealexker frames the release as an efficiency story , highlighting: compared to GLM-5.2: ~1/10 the cost active params 32B → 18B layers 92 → 45 hybrid linear + sparse attention smaller average KV cache per layer lower attention compute compounding at long contexts claims that visual intelligence benefited from coding/RL style improvements says the GLM-5.3 infrastructure agent co-authored parts of the work by helping with kernels, bottlenecks, and serving stack optimization The broader context post from eliebakouch is opinionated but technically notable because it places GLM in a Chinese open-model trend: nearly all Chinese frontier models now use linear attention nearly all use sparse attention / indexer-compression designs many use fancy residuals like mHC , attention residuals, gated residuals many use Muon That post is not a direct GLM paper summary, but it helps explain why the architecture details immediately resonated with model engineers: GLM-5.3-Flash appears to be another data point in a fast-converging efficiency-first Chinese frontier OSS design space . Chinese chip angle and serving implications The hardware/serving side was",
-    "handle": "latentspace",
-    "source": "Latent Space",
-    "category": ":CRWV US",
-    "permalink": "https://www.latent.space/p/ainews-nvidia-buys-huggingface-for",
-    "media": [
-      "https://substackcdn.com/image/fetch/$s_!FSM7!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa61da113-3d9b-4206-81c1-06da7b4a9a0c_1362x1278.png",
-      "https://substackcdn.com/image/fetch/$s_!FSM7!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa61da113-3d9b-4206-81c1-06da7b4a9a0c_1362x1278.png",
-      "https://substackcdn.com/image/fetch/$s_!DbYa!,w_40,h_40,c_fill,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F73b0838a-bd14-46a1-801c-b6a2046e5c1e_1130x1130.png",
-      "https://substackcdn.com/image/fetch/$s_!1PJi!,e_trim:10:white/e_trim:10:transparent/h_72,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa4fe1182-38af-4a5d-bacc-439c36225e87_5000x1200.png",
-      "https://substackcdn.com/image/fetch/$s_!FSM7!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa61da113-3d9b-4206-81c1-06da7b4a9a0c_1362x1278.png"
-    ],
-    "top": true,
-    "kind": "substack",
-    "tickers": [
-      "CRWV",
-      "NVDA",
-      "DELL"
-    ],
-    "themes": [
-      "SPACE",
-      "AI"
-    ],
-    "sectors": [
       "Horizontal SW",
       "Semis & HW"
     ],
