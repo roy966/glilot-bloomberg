@@ -454,6 +454,31 @@
     "has_media": false
   },
   {
+    "id": "2095298024407015472",
+    "time": "2026-09-02T23:49:12.000Z",
+    "summary": "It’s not a bubble!",
+    "full_text": "It’s not a bubble! 🚀",
+    "handle": "cazenove_uk",
+    "source": "Anthony P⭕️wer",
+    "category": ":AVGO US",
+    "permalink": "https://x.com/cazenove_uk/status/2095298024407015472",
+    "media": [],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "AVGO"
+    ],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": false
+  },
+  {
     "id": "2095296218687840303",
     "time": "2026-09-02T23:42:01.000Z",
     "summary": "Broadcom의 AI칩 매출은 3분기 167억 달러로 3배 이상 증가했다.",
@@ -645,6 +670,27 @@
     ],
     "in_universe": true,
     "has_media": true
+  },
+  {
+    "id": "2095285293800669393",
+    "time": "2026-09-02T22:58:37.000Z",
+    "summary": "@ThematicTrader Fair!",
+    "full_text": "@ThematicTrader Fair!",
+    "handle": "Mike10947310",
+    "source": "Mike",
+    "category": ":CHIPS",
+    "permalink": "https://x.com/Mike10947310/status/2095285293800669393",
+    "media": [],
+    "top": false,
+    "kind": "x",
+    "tickers": [],
+    "themes": [
+      "CHIPS",
+      "AI"
+    ],
+    "sectors": [],
+    "in_universe": false,
+    "has_media": false
   },
   {
     "id": "2095285138582315471",
