@@ -1,5 +1,62 @@
 [
   {
+    "id": "2095318609274843352",
+    "time": "2026-09-03T01:11:00.000Z",
+    "summary": "Elon Musk at G20: \"10 years from now, there are well over 1 billion humanoid robots.",
+    "full_text": "Elon Musk at G20: \n\n\"10 years from now, there are well over 1 billion humanoid robots. The productivity per robot will be probably 5x that of a human.\"\n\nIn 2024, Elon said 1 billion humanoid robots by 2040s, so the timeline has been pushed ahead by several years.\n\nOther remarks he made: \n\n> Energy capacity outside of China only growing 10-20% annually\n\n> AI chip production is increasing at 40-50% per year.\n\n$NVDA $TSLA $AMD $GEV $GOOGL $META $SPCX",
+    "handle": "pequityresearch",
+    "source": "P Equity Research 📰",
+    "category": ":NVDA US",
+    "permalink": "https://x.com/pequityresearch/status/2095318609274843352",
+    "media": [
+      "https://pbs.twimg.com/amplify_video_thumb/2095259304072716294/img/pd-NtmdyYVMNRq1a.jpg",
+      "https://video.twimg.com/amplify_video/2095259304072716294/vid/avc1/492x284/KFFJzrLeMruGddKX.mp4?tag=29"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NVDA",
+      "TSLA",
+      "AMD",
+      "GOOGL"
+    ],
+    "themes": [
+      "ROBOTICS",
+      "AI"
+    ],
+    "sectors": [
+      "Semis & HW",
+      "Emerging Tech",
+      "Cyber Related"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
+    "id": "2095316010249166875",
+    "time": "2026-09-03T01:00:40.000Z",
+    "summary": "NVIDIA Research 🚀 has produced some great research, like LatentMoE (used in Kimi K3) and GatedDeltaNets (used in Qwen).",
+    "full_text": "NVIDIA Research 🚀 has produced some great research, like LatentMoE (used in Kimi K3) and GatedDeltaNets (used in Qwen). But for e2e frontier training, NVIDIA's bureaucratic culture has produced embarrassing models like Nemotron3 Ultra.\n\nDespite NVIDIA Research having amazing talent, Nemotron3 Ultra, with 550B total params (55B active), is getting mogged by all the Chinese models, including even Qwen3.8 27B parameters, which has ~20x fewer parameters.",
+    "handle": "SemiAnalysis_",
+    "source": "SemiAnalysis",
+    "category": ":NVDA US",
+    "permalink": "https://x.com/SemiAnalysis_/status/2095316010249166875",
+    "media": [
+      "https://pbs.twimg.com/media/HRQOzpVWIAAVVKa.jpg"
+    ],
+    "top": true,
+    "kind": "x",
+    "tickers": [
+      "NVDA"
+    ],
+    "themes": [],
+    "sectors": [
+      "Semis & HW"
+    ],
+    "in_universe": true,
+    "has_media": true
+  },
+  {
     "id": "2095309291075108915",
     "time": "2026-09-03T00:33:58.000Z",
     "summary": "My full Hot Chips 2026 report is out.",
